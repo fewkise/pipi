@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI";
+}
+* li {
+  list-style: none;
+}
+
+.headerAll {
+  max-width: 100%;
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-size: 0.9vw;
+  background-image: url("imgs/Group 1.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+}
+.headerAll header {
+  display: flex;
+  width: 90vw;
+  height: 15vh;
+  justify-content: space-around;
+  align-items: center;
+}
+.headerAll header .formenu:hover {
+  opacity: 100%;
+}
+.headerAll header .formenu:hover li {
+  opacity: 100%;
+  height: 5vh;
+}
+.headerAll header .formenu {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  align-items: flex-end;
+  position: absolute;
+  left: 1480px;
+  top: 70px;
+  opacity: 0;
+  padding-top: 50px;
+  border-radius: 20px;
+  transition: 0.8s;
+}
+.headerAll header .formenu li {
+  transition: 0.8s;
+  opacity: 0%;
+  background-color: #F2F0FE;
+  width: 15vw;
+  height: 0;
+  display: flex;
+  display: flex;
+}
+.headerAll header .formenu li:nth-child(1) {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.headerAll header .formenu li:nth-child(7) {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.headerAll header .formenu li:nth-child(6) {
+  width: 15vw;
+}
+.headerAll header .formenu .panel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 15vw;
+  background-color: #F2F0FE;
+  opacity: 100%;
+  transition: 0.8s;
+}
+.headerAll header .formenu .panel .ulPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 15vw;
+  opacity: 100%;
+  justify-content: space-around;
+}
+.headerAll header .formenu .panel .ulPanel li:nth-child(1) {
+  width: 15vw;
+  display: flex;
+  justify-content: space-around;
+}
+.headerAll header .formenu .panel .ulPanel li:nth-child(1) button {
+  width: 7vw;
+}
+.headerAll header ul {
+  display: flex;
+  width: 90vw;
+  justify-content: space-around;
+  align-items: center;
+}
+.headerAll header ul li:nth-child(6) {
+  width: 8vw;
+}
+.headerAll header ul li:nth-child(7) {
+  width: 15vw;
+}
+.headerAll header ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+.headerAll header ul li button:nth-child(1) {
+  background-color: #F2F0FE;
+  color: #1DBF73;
+}
+.headerAll header ul li button:nth-child(2) {
+  background-color: #1DBF73;
+  color: white;
+}
+.headerAll header ul li button {
+  width: 6vw;
+  height: 4vh;
+  border-radius: 50px;
+  border: none;
+  font-size: 0.9rem;
+}
+.headerAll header ul li a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.headerAll header ul li a:hover {
+  color: green;
+}
+
+.CWAll {
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.CWAll .createWork {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 80vw;
+}
+.CWAll .createWork .forFon {
+  width: 80vw;
+  height: 20vh;
+  background-image: url("../createWorkPage2/cwpimgs/Frame 84 (1).png");
+  background-repeat: no-repeat;
+  background-size: 55%;
+  background-position: center;
+}
+.CWAll .createWork .cardCW {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 80vw;
+  height: 80vh;
+}
+.CWAll .createWork .cardCW .pokets {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  height: 67vh;
+}
+.CWAll .createWork .cardCW .pokets #nazv {
+  align-self: flex-start;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.CWAll .createWork .cardCW .poketsHolder {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  height: 67vh;
+}
+.CWAll .createWork .cardCW .poketCard {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 23vw;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  border: 1px solid rgb(220, 220, 220);
+}
+.CWAll .createWork .cardCW .poketCard button {
+  width: 15vw;
+  height: 5vh;
+  border-radius: 50px;
+  background-color: #EBE8FF;
+  border: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #656084;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.CWAll .createWork .cardCW .poketCard button:hover {
+  background-color: #656084;
+  color: #EBE8FF;
+}
+.CWAll .createWork .cardCW .poketCard .nazvCard {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.CWAll .createWork .cardCW .poketCard ul {
+  width: 20vw;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.CWAll .createWork .cardCW .poketCard ul li:nth-child(1) {
+  height: 20vh;
+}
+.CWAll .createWork .cardCW .poketCard ul li:nth-child(1) form {
+  height: 10vh;
+}
+.CWAll .createWork .cardCW .poketCard ul li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 8vh;
+  width: 15vw;
+}
+.CWAll .createWork .cardCW .poketCard ul form {
+  border-bottom: 1px solid rgb(218, 218, 218);
+}
+.CWAll .createWork .cardCW .poketCard ul form input {
+  width: 20vw;
+  border: none;
+  font-size: 1.1rem;
+}
+
+.dopOptions {
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+  justify-content: space-around;
+}
+.dopOptions .continue {
+  align-self: center;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dopOptions .continue #nazad {
+  background-color: #F2F0FE;
+  color: #656084;
+}
+.dopOptions .continue button {
+  width: 8vw;
+  height: 4vh;
+  border-radius: 50px;
+  color: white;
+  background-color: #1DBF73;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.dopOptions .continue button:hover {
+  border: 1px #1DBF73 solid;
+  color: #1DBF73;
+  background-color: white;
+}
+.dopOptions .options {
+  display: flex;
+  width: 80vw;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.dopOptions .options .nazvOpt {
+  align-self: flex-start;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.dopOptions .options .donOptionsCard {
+  display: flex;
+  width: 50vw;
+  justify-content: space-between;
+  align-items: center;
+  height: 45vh;
+}
+.dopOptions .options .donOptionsCard .spravaCard {
+  display: flex;
+  height: 40vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20vw;
+  background-color: #F2F0FE;
+  border-radius: 20px;
+}
+.dopOptions .options .donOptionsCard .spravaCard p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #FBA457;
+}
+.dopOptions .options .donOptionsCard .slevacard {
+  width: 25vw;
+  height: 40vh;
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.dopOptions .options .donOptionsCard .slevacard #zirNazv {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.dopOptions .options .donOptionsCard .slevacard ul:nth-child(4) {
+  align-items: center;
+  justify-content: space-around;
+}
+.dopOptions .options .donOptionsCard .slevacard ul:nth-child(4) button {
+  height: 5vh;
+  width: 15vw;
+  border-radius: 50px;
+  background-color: #FFDBDB;
+  color: red;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.dopOptions .options .donOptionsCard .slevacard ul:nth-child(4) li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.dopOptions .options .donOptionsCard .slevacard ul:nth-child(3) {
+  flex-direction: row;
+  width: 20vw;
+}
+.dopOptions .options .donOptionsCard .slevacard ul:nth-child(3) input {
+  width: 9vw;
+  border: none;
+  font-size: 1.1rem;
+}
+.dopOptions .options .donOptionsCard .slevacard ul {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 10vh;
+}
+.dopOptions .options .donOptionsCard .slevacard ul li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 8vh;
+  width: 15vw;
+}
+.dopOptions .options .donOptionsCard .slevacard ul form {
+  border-bottom: 1px solid rgb(218, 218, 218);
+}
+.dopOptions .options .donOptionsCard .slevacard ul form input {
+  width: 19vw;
+  border: none;
+  font-size: 1.1rem;
+}/*# sourceMappingURL=style.css.map */

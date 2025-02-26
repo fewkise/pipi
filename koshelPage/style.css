@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI";
+}
+* li {
+  list-style: none;
+}
+
+.footerAll, .footerAll footer {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.headerAll {
+  max-width: 100%;
+  width: 100vw;
+  height: 114vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-size: 0.9vw;
+  background-image: url("imgs/Group 1.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+}
+.headerAll header {
+  display: flex;
+  width: 90vw;
+  height: 15vh;
+  justify-content: space-around;
+  align-items: center;
+}
+.headerAll header .formenu:hover {
+  opacity: 100%;
+}
+.headerAll header .formenu:hover li {
+  opacity: 100%;
+  height: 5vh;
+}
+.headerAll header .formenu {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  align-items: flex-end;
+  position: absolute;
+  left: 1480px;
+  top: 70px;
+  opacity: 0;
+  padding-top: 50px;
+  border-radius: 20px;
+  transition: 0.8s;
+}
+.headerAll header .formenu li {
+  transition: 0.8s;
+  opacity: 0%;
+  background-color: #F2F0FE;
+  width: 15vw;
+  height: 0;
+  display: flex;
+  display: flex;
+}
+.headerAll header .formenu li:nth-child(1) {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.headerAll header .formenu li:nth-child(7) {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.headerAll header .formenu li:nth-child(6) {
+  width: 15vw;
+}
+.headerAll header .formenu .panel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 15vw;
+  background-color: #F2F0FE;
+  opacity: 100%;
+  transition: 0.8s;
+}
+.headerAll header .formenu .panel .ulPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 15vw;
+  opacity: 100%;
+  justify-content: space-around;
+}
+.headerAll header .formenu .panel .ulPanel li:nth-child(1) {
+  width: 15vw;
+  display: flex;
+  justify-content: space-around;
+}
+.headerAll header .formenu .panel .ulPanel li:nth-child(1) button {
+  width: 7vw;
+}
+.headerAll header ul {
+  display: flex;
+  width: 90vw;
+  justify-content: space-around;
+  align-items: center;
+}
+.headerAll header ul li:nth-child(6) {
+  width: 8vw;
+}
+.headerAll header ul li:nth-child(7) {
+  width: 15vw;
+}
+.headerAll header ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+.headerAll header ul li button:nth-child(1) {
+  background-color: #F2F0FE;
+  color: #1DBF73;
+}
+.headerAll header ul li button:nth-child(2) {
+  background-color: #1DBF73;
+  color: white;
+}
+.headerAll header ul li button {
+  width: 6vw;
+  height: 4vh;
+  border-radius: 50px;
+  border: none;
+  font-size: 0.9rem;
+}
+.headerAll header ul li a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.headerAll header ul li a:hover {
+  color: green;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90vw;
+  height: 60vh;
+  flex-direction: column;
+}
+main h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+main h1 span {
+  color: #FBA457;
+}
+main .koshelAll {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  height: 50vh;
+}
+main .koshelAll .holderSprava {
+  display: flex;
+  align-items: center;
+  width: 50vw;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  height: 40vh;
+}
+main .koshelAll .holderSprava ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 35vh;
+  width: 35vw;
+  justify-content: space-around;
+  border-radius: 20px;
+  border: 1px solid rgb(216, 216, 216);
+}
+main .koshelAll .holderSprava ul li:nth-child(2) {
+  color: #1DBF73;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+main .koshelAll .holderSprava ul li {
+  display: flex;
+  justify-content: space-around;
+  width: 30vw;
+}
+main .koshelAll .holderSprava ul li p {
+  font-size: 1.5rem;
+}
+main .koshelAll .holderSprava ul li button {
+  width: 8vw;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(216, 216, 216);
+  cursor: pointer;
+  transition: 0.5s;
+}
+main .koshelAll .holderSprava ul li button:hover {
+  background-color: #1DBF73;
+}
+main .blockHolderSleva {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 50vw;
+  height: 40vh;
+}
+main .blockHolderSleva .blockHolder {
+  display: flex;
+  width: 35vw;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+}
+main .blockHolderSleva .blockHolder ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 15vw;
+  flex-direction: column;
+  height: 15vh;
+  border-radius: 20px;
+  border: 1px solid rgb(216, 216, 216);
+}
+main .blockHolderSleva .blockHolder ul li:nth-child(2) {
+  font-weight: 500;
+  margin-bottom: 1vw;
+}
+main .blockHolderSleva .blockHolder ul li:nth-child(1) {
+  margin-top: 1vw;
+}
+
+.historyAll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 40vh;
+  width: 70vw;
+}
+.historyAll #nameHistory {
+  align-self: flex-start;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.historyAll .history {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70vw;
+}
+.historyAll .history #forsums {
+  font-weight: 700;
+}
+.historyAll ul:nth-child(1) {
+  height: 11vw;
+  align-self: flex-end;
+}
+.historyAll ul:nth-child(1) button {
+  width: 2.5vw;
+  height: 5vh;
+  border-radius: 50px;
+  border: none;
+}
+.historyAll ul:nth-child(1) li:nth-child(1) button {
+  background-color: #D7FFEC;
+}
+.historyAll ul:nth-child(1) li:nth-child(2) button {
+  background-color: #EBE8FF;
+}
+.historyAll ul:nth-child(1) li:nth-child(3) button {
+  background-color: #FFEDDD;
+}
+.historyAll ul {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 70vw;
+  height: 30vh;
+}
+.historyAll ul p {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.forotst {
+  height: 10vw;
+}
+
+.footerAll {
+  width: 100vw;
+  max-width: 100%;
+  height: 50vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F2F0FE;
+}
+.footerAll footer {
+  width: 80vw;
+  justify-content: space-between;
+}
+.footerAll footer ul:nth-child(4) li:nth-child(2) {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 15vw;
+  height: 8vh;
+}
+.footerAll footer ul a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.footerAll footer ul a:hover {
+  color: #1DBF73;
+}
+.footerAll footer ul li {
+  height: 3vh;
+}
+.footerAll footer ul li:nth-child(1) {
+  height: 5vh;
+  font-size: 1.5rem;
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */

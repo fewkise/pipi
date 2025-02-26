@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI";
+}
+* li {
+  list-style: none;
+}
+
+.footerAll, .footerAll footer, main {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.headerAll {
+  max-width: 100%;
+  width: 100vw;
+  height: 120vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-size: 0.9vw;
+  background-image: url("imgs/Group 1.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+}
+.headerAll header {
+  display: flex;
+  width: 90vw;
+  height: 18vh;
+  justify-content: space-around;
+  align-items: center;
+}
+.headerAll header .formenu:hover {
+  opacity: 100%;
+}
+.headerAll header .formenu:hover li {
+  opacity: 100%;
+  height: 5vh;
+}
+.headerAll header .formenu {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  align-items: flex-end;
+  position: absolute;
+  left: 1480px;
+  top: 70px;
+  opacity: 0;
+  padding-top: 50px;
+  border-radius: 20px;
+  transition: 0.8s;
+}
+.headerAll header .formenu li {
+  transition: 0.8s;
+  opacity: 0%;
+  background-color: #F2F0FE;
+  width: 15vw;
+  height: 0;
+  display: flex;
+  display: flex;
+}
+.headerAll header .formenu li:nth-child(1) {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.headerAll header .formenu li:nth-child(7) {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.headerAll header .formenu li:nth-child(6) {
+  width: 15vw;
+}
+.headerAll header .formenu .panel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 15vw;
+  background-color: #F2F0FE;
+  opacity: 100%;
+  transition: 0.8s;
+}
+.headerAll header .formenu .panel .ulPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 15vw;
+  opacity: 100%;
+  justify-content: space-around;
+}
+.headerAll header .formenu .panel .ulPanel li:nth-child(1) {
+  width: 15vw;
+  display: flex;
+  justify-content: space-around;
+}
+.headerAll header .formenu .panel .ulPanel li:nth-child(1) button {
+  width: 7vw;
+}
+.headerAll header ul {
+  display: flex;
+  width: 90vw;
+  justify-content: space-around;
+  align-items: center;
+}
+.headerAll header ul li:nth-child(6) {
+  width: 8vw;
+}
+.headerAll header ul li:nth-child(7) {
+  width: 15vw;
+}
+.headerAll header ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+.headerAll header ul li button:nth-child(1) {
+  background-color: #F2F0FE;
+  color: #1DBF73;
+}
+.headerAll header ul li button:nth-child(2) {
+  background-color: #1DBF73;
+  color: white;
+}
+.headerAll header ul li button {
+  width: 6vw;
+  height: 4vh;
+  border-radius: 50px;
+  border: none;
+  font-size: 0.9rem;
+}
+.headerAll header ul li a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.headerAll header ul li a:hover {
+  color: green;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  height: 105vh;
+}
+main .spravaChat {
+  width: 60vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 85vh;
+}
+main .spravaChat .chat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  justify-content: space-between;
+  border-radius: 20px;
+  border: 1px solid rgb(234, 234, 234);
+}
+main .spravaChat .chat ul:nth-child(3) {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 55vw;
+  height: 13vh;
+}
+main .spravaChat .chat ul:nth-child(3) form {
+  width: 30vw;
+  display: flex;
+  height: 5vh;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #F2F0FE;
+  border-radius: 50px;
+}
+main .spravaChat .chat ul:nth-child(3) form input {
+  width: 27vw;
+  border: none;
+  height: 4vh;
+  background-color: #F2F0FE;
+  font-size: 1.2rem;
+}
+main .spravaChat .chat ul:nth-child(3) #addBut {
+  width: 2.5vw;
+  height: 5vh;
+  border-radius: 100px;
+  background-color: gray;
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+main .spravaChat .chat ul:nth-child(3) #addBut:hover {
+  background-color: #1DBF73;
+}
+main .spravaChat .chat ul:nth-child(3) #sendBut {
+  width: 10vw;
+  height: 4.2vh;
+  border-radius: 50px;
+  background-color: #1DBF73;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+main .spravaChat .chat ul:nth-child(3) #sendBut:hover {
+  background-color: #F7F6FF;
+  border: #1DBF73 1px solid;
+  color: #1DBF73;
+}
+main .spravaChat .chat ul:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 45vw;
+  justify-content: space-around;
+  height: 40vh;
+}
+main .spravaChat .chat ul:nth-child(2) #forAdds {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 15vh;
+  width: 22vw;
+}
+main .spravaChat .chat ul:nth-child(2) #forAdds li:nth-child(4) {
+  display: flex;
+  justify-content: space-around;
+  background-color: #F2F0FE;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 20px;
+}
+main .spravaChat .chat ul:nth-child(2) #forAdds li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 11vh;
+  justify-content: space-between;
+}
+main .spravaChat .chat ul:nth-child(2) #forAdds li:nth-child(3) {
+  background-image: url("../chatPage/imgsChat/document 1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+main .spravaChat .chat ul:nth-child(2) li:nth-child(1) {
+  align-self: center;
+  height: 4vh;
+}
+main .spravaChat .chat ul:nth-child(2) #mesOne {
+  background-color: #FFEDDD;
+  height: 6vh;
+  display: flex;
+  width: 19vw;
+  align-items: center;
+  border-radius: 20px;
+}
+main .spravaChat .chat ul:nth-child(2) #mesOne p {
+  padding-left: 20px;
+}
+main .spravaChat .chat ul:nth-child(2) #mesTwo {
+  background-color: #FFEDDD;
+  height: 4vh;
+  display: flex;
+  width: 9vw;
+  align-items: center;
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+}
+main .spravaChat .chat ul:nth-child(2) #mesTwo p {
+  padding-left: 20px;
+}
+main .spravaChat .chat ul:nth-child(2) #mesThree {
+  align-self: flex-end;
+  background-color: #D7FFEC;
+  width: 4vw;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  border-top-right-radius: 0;
+}
+main .spravaChat .chat ul:nth-child(1) {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 55vw;
+  height: 10vh;
+  border-bottom: 1px solid rgb(234, 234, 234);
+}
+main .spravaChat .chat ul:nth-child(1) li:nth-child(2) {
+  width: 48vw;
+}
+main .spravaChat .chat ul:nth-child(1) li:nth-child(2) p:nth-child(1) {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+main .spravaChat .chat ul:nth-child(1) li:nth-child(2) p:nth-child(2) {
+  color: #1DBF73;
+}
+main .slevaChat {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+}
+main .slevaChat .cardChat {
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 11vh;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid rgb(234, 234, 234);
+  transition: 0.5s;
+}
+main .slevaChat .cardChat:hover {
+  background-color: #D7FFEC;
+}
+main .slevaChat .cardChat ul {
+  display: flex;
+  align-items: center;
+  width: 19vw;
+  justify-content: space-around;
+  height: 10vh;
+}
+main .slevaChat .cardChat ul li:nth-child(2) {
+  width: 13vw;
+}
+main .slevaChat .poisk form {
+  width: 20vw;
+  background-color: #F7F6FF;
+  height: 5vh;
+  border-radius: 50px;
+}
+main .slevaChat .poisk form input {
+  width: 18vw;
+  border: none;
+  background-color: #F7F6FF;
+  height: 5vh;
+  border-radius: 50px;
+}
+main .slevaChat .poisk form .placeholder {
+  padding-left: 20px;
+  position: relative;
+  top: -35px;
+  color: #646464;
+}
+
+.otst {
+  height: 20vh;
+}
+
+.footerAll {
+  width: 100vw;
+  max-width: 100%;
+  height: 50vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F2F0FE;
+}
+.footerAll footer {
+  width: 80vw;
+  justify-content: space-between;
+}
+.footerAll footer ul:nth-child(4) li:nth-child(2) {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 15vw;
+  height: 8vh;
+}
+.footerAll footer ul a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.footerAll footer ul a:hover {
+  color: #1DBF73;
+}
+.footerAll footer ul li {
+  height: 3vh;
+}
+.footerAll footer ul li:nth-child(1) {
+  height: 5vh;
+  font-size: 1.5rem;
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */

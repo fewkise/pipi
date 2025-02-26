@@ -1,0 +1,442 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI";
+}
+* li {
+  list-style: none;
+}
+
+.footerAll, .footerAll footer, .reviewAll, .reviewAll .review, .worksAll, .worksAll .works, .worksAll .works .worksHolder {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.headerAll {
+  max-width: 100%;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-size: 0.9vw;
+  background-color: #F7F6FF;
+  background-image: url("imgs/Group 1.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+}
+.headerAll header {
+  display: flex;
+  width: 90vw;
+  height: 15vh;
+  justify-content: space-around;
+  align-items: center;
+}
+.headerAll header .formenu:hover {
+  opacity: 100%;
+}
+.headerAll header .formenu:hover li {
+  opacity: 100%;
+  height: 5vh;
+}
+.headerAll header .formenu {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  align-items: flex-end;
+  position: absolute;
+  left: 1480px;
+  top: 70px;
+  opacity: 0;
+  padding-top: 50px;
+  border-radius: 20px;
+  transition: 0.8s;
+}
+.headerAll header .formenu li {
+  transition: 0.8s;
+  opacity: 0%;
+  background-color: #F2F0FE;
+  width: 15vw;
+  height: 0;
+  display: flex;
+  display: flex;
+}
+.headerAll header .formenu li:nth-child(1) {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.headerAll header .formenu li:nth-child(7) {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.headerAll header .formenu li:nth-child(6) {
+  width: 15vw;
+}
+.headerAll header .formenu .panel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 15vw;
+  background-color: #F2F0FE;
+  opacity: 100%;
+  transition: 0.8s;
+}
+.headerAll header .formenu .panel .ulPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 15vw;
+  opacity: 100%;
+  justify-content: space-around;
+}
+.headerAll header .formenu .panel .ulPanel li:nth-child(1) {
+  width: 15vw;
+  display: flex;
+  justify-content: space-around;
+}
+.headerAll header .formenu .panel .ulPanel li:nth-child(1) button {
+  width: 7vw;
+}
+.headerAll header ul {
+  display: flex;
+  width: 90vw;
+  justify-content: space-around;
+  align-items: center;
+}
+.headerAll header ul li:nth-child(6) {
+  width: 8vw;
+}
+.headerAll header ul li:nth-child(7) {
+  width: 15vw;
+}
+.headerAll header ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+.headerAll header ul li button:nth-child(1) {
+  background-color: #F2F0FE;
+  color: #1DBF73;
+}
+.headerAll header ul li button:nth-child(2) {
+  background-color: #1DBF73;
+  color: white;
+}
+.headerAll header ul li button {
+  width: 6vw;
+  height: 4vh;
+  border-radius: 50px;
+  border: none;
+  font-size: 0.9rem;
+}
+.headerAll header ul li a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.headerAll header ul li a:hover {
+  color: green;
+}
+
+main {
+  width: 90vw;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  height: 85vh;
+  justify-content: space-around;
+}
+main ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  justify-content: space-around;
+  align-items: center;
+}
+main ul li:nth-child(1) p {
+  color: #FBA457;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+main ul li:nth-child(2) p {
+  font-weight: 500;
+  font-size: 2rem;
+}
+main ul li:nth-child(2) p span {
+  color: #1DBF73;
+}
+main ul li:nth-child(4) {
+  width: 40vw;
+  justify-content: flex-start;
+  align-self: flex-start;
+  display: flex;
+  height: 10vh;
+}
+main ul li:nth-child(4) button {
+  width: auto;
+  height: 4vh;
+  font-size: 1rem;
+  border-radius: 20px;
+  border: none;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: 20px;
+  background-color: #F2F0FE;
+}
+main ul li:nth-child(5) {
+  width: 35vw;
+}
+main ul li:nth-child(5) button {
+  align-self: flex-start;
+  display: flex;
+  width: 30vw;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F2F0FE;
+  height: 6vh;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+}
+main ul li {
+  width: 35vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+main #bgProfile {
+  width: 40vw;
+  height: 70vh;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../profilePage/imgsProfile/Group 11 (1).png");
+}
+
+.worksAll {
+  width: 100vw;
+  height: 130vh;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.worksAll #more {
+  width: 11vw;
+  height: 5vh;
+  border-radius: 50px;
+  border: 1px solid #1DBF73;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 400;
+  color: #1DBF73;
+  background-color: white;
+}
+.worksAll #more:hover {
+  background-color: #1DBF73;
+  color: white;
+}
+.worksAll .works {
+  width: 80vw;
+  display: flex;
+  height: 120vh;
+  flex-direction: column;
+}
+.worksAll .works .worksHolder {
+  width: 80vw;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.worksAll .works .worksHolder .newWork {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 17vw;
+  height: 17vh;
+  padding-top: 5%;
+  flex-direction: column;
+}
+.worksAll .works .worksHolder .newWork p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #1DBF73;
+}
+.worksAll .works .worksHolder .cardWork {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 32vh;
+  border: 1px solid rgb(243, 243, 243);
+  border-radius: 20px;
+  box-shadow: 4px 8px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.worksAll .works .worksHolder .cardWork li:nth-child(1) {
+  width: 17vw;
+  height: 27vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("../profilePage/imgsProfile/Rectangle 20 (1).png");
+}
+.worksAll .works .worksHolder .cardWork li {
+  height: 5vh;
+  padding-left: 10px;
+}
+.worksAll .works .worksHolder .cardWork li p {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.worksAll .works .worksHolder .cardWork li:nth-child(3) p {
+  color: #1DBF73;
+}
+
+.reviewAll {
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+.reviewAll #more {
+  width: 11vw;
+  height: 5vh;
+  border-radius: 50px;
+  border: 1px solid #1DBF73;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 400;
+  color: #1DBF73;
+  background-color: white;
+  align-self: center;
+}
+.reviewAll #more:hover {
+  background-color: #1DBF73;
+  color: white;
+}
+.reviewAll .review {
+  width: 80vw;
+  display: flex;
+  height: 80vh;
+  flex-direction: column;
+}
+.reviewAll .review .reviewHolder {
+  display: flex;
+  width: 80vw;
+  align-items: center;
+  justify-content: space-between;
+  height: 30vh;
+}
+.reviewAll .review .reviewHolder .reviewCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 25vw;
+  background-color: white;
+  border: 1px solid #F6FAFD;
+  flex-direction: column;
+  height: 22vh;
+  border-radius: 20px;
+}
+.reviewAll .review .reviewHolder .reviewCard ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 22vw;
+  height: 20vh;
+}
+.reviewAll .review .reviewHolder .reviewCard ul:nth-child(2) {
+  padding-bottom: 10px;
+}
+.reviewAll .review .reviewHolder .reviewCard ul:nth-child(2) p {
+  font-size: 0.8vw;
+}
+.reviewAll .review .reviewHolder .reviewCard ul:nth-child(1) {
+  width: 13vw;
+  height: 20vh;
+  justify-content: space-between;
+  align-self: flex-start;
+  padding-left: 1.5vw;
+}
+.reviewAll .review .reviewHolder .reviewCard ul:nth-child(1) li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 7vh;
+  justify-content: space-between;
+}
+.reviewAll .review .reviewHolder .reviewCard ul:nth-child(1) li p {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.reviewAll .review #revTop {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 10vh;
+}
+.reviewAll .review #revTop li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.reviewAll .review #revTop li:nth-child(1) p {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+.reviewAll .review #revTop li:nth-child(2) {
+  width: 20vw;
+  justify-content: space-between;
+}
+.reviewAll .review #revTop li:nth-child(2) p {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.reviewAll .review #revTop li:nth-child(2) p:nth-child(1) {
+  color: #1DBF73;
+}
+
+.footerAll {
+  width: 100vw;
+  max-width: 100%;
+  height: 50vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F2F0FE;
+}
+.footerAll footer {
+  width: 80vw;
+  justify-content: space-between;
+}
+.footerAll footer ul:nth-child(4) li:nth-child(2) {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 15vw;
+  height: 8vh;
+}
+.footerAll footer ul a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.footerAll footer ul a:hover {
+  color: #1DBF73;
+}
+.footerAll footer ul li {
+  height: 3vh;
+}
+.footerAll footer ul li:nth-child(1) {
+  height: 5vh;
+  font-size: 1.5rem;
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,457 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI";
+}
+* li {
+  list-style: none;
+}
+
+.footerAll, .footerAll footer, .trustAll, .trustAll .trust ul li, .resolverAll, .resolverAll .resolver, .resolverAll .resolver .resolverHolder, .resolverAll .resolver .resolverHolder ul, .freelanceAll, .freelanceAll .freelance, .actualAll, .actualAll .actual {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.freelanceAll .freelance .freelanceHolder .freeCard button, .actualAll .actual ul button {
+  width: 6vw;
+  height: 4vh;
+  border-radius: 50px;
+  border: none;
+  font-size: 0.9rem;
+  background-color: #F7F6FF;
+  color: #1DBF73;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.freelanceAll .freelance .freelanceHolder .freeCard button:hover, .actualAll .actual ul button:hover {
+  background-color: #1DBF73;
+  color: #F2F0FE;
+}
+
+.headerAll {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  max-width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-size: 0.9vw;
+  background-color: #F7F6FF;
+}
+.headerAll header {
+  display: flex;
+  width: 90vw;
+  height: 15vh;
+  justify-content: space-around;
+  align-items: center;
+}
+.headerAll header ul {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+}
+.headerAll header ul li:nth-child(7) {
+  width: 15vw;
+}
+.headerAll header ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+.headerAll header ul li button:nth-child(1) {
+  background-color: #F2F0FE;
+  color: #1DBF73;
+}
+.headerAll header ul li button:nth-child(2) {
+  background-color: #1DBF73;
+  color: white;
+}
+.headerAll header ul li button {
+  width: 6vw;
+  height: 4vh;
+  border-radius: 50px;
+  border: none;
+  font-size: 0.9rem;
+}
+.headerAll header ul li a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.headerAll header ul li a:hover {
+  color: green;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90vw;
+  height: 85vh;
+}
+main h3 {
+  font-weight: 500;
+}
+main .sprava {
+  width: 40vw;
+  height: 85vh;
+  background-image: url("../mainPage/imgs/Group 11.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+main .slevaAll {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+main .slevaAll form {
+  background-color: #F2F0FE;
+  height: 5vh;
+  width: 26vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 30px;
+}
+main .slevaAll form #search {
+  height: 5vh;
+  border-radius: 30px;
+  background-color: #FBA457;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+main .slevaAll form input {
+  width: 21vw;
+  height: 5vh;
+  border: none;
+  border-radius: 30px;
+  background-color: #F2F0FE;
+}
+main .slevaAll #BigText {
+  height: 12vh;
+}
+main .slevaAll #forBtn {
+  width: 25vw;
+}
+main .slevaAll #forBtnI {
+  width: 27vw;
+}
+main .slevaAll #forBtnT {
+  width: 28vw;
+}
+main .slevaAll ul:nth-child(1) {
+  height: 35vh;
+}
+main .slevaAll ul:nth-child(2) {
+  height: 15vh;
+}
+main .slevaAll ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 25vh;
+  width: 35vw;
+}
+main .slevaAll ul li {
+  width: 30vw;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .slevaAll ul li button {
+  width: 8vw;
+  height: 3.8vh;
+  border-radius: 20px;
+  background-color: #F2F0FE;
+  border: 1px solid #e4e4e4;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 400;
+}
+main .slevaAll ul li button:hover {
+  background-color: #1DBF73;
+}
+main .slevaAll ul li h2 {
+  font-size: 2.5rem;
+}
+
+.actualAll {
+  width: 100vw;
+  height: 80vh;
+  max-width: 100%;
+}
+.actualAll .actualVerx {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  align-items: center;
+}
+.actualAll .actual {
+  width: 80vw;
+  display: flex;
+  height: 70vh;
+  flex-direction: column;
+}
+.actualAll .actual .smvse {
+  width: 22vw;
+  height: 27vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #F2F0FE;
+  border-radius: 10px;
+}
+.actualAll .actual .smvse h3 {
+  color: #1DBF73;
+}
+.actualAll .actual ul {
+  width: 22vw;
+  height: 27vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid rgb(230, 230, 230);
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 4px 8px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.actualAll .actual ul h3 {
+  font-weight: 500;
+}
+.actualAll .actual ul h4 {
+  font-weight: 400;
+}
+.actualAll .actual ul button {
+  width: 21vw;
+  border: #1DBF73 solid 1px;
+}
+.actualAll .actual ul li:nth-child(1) {
+  align-self: flex-start;
+  width: 17vw;
+  justify-content: space-around;
+}
+.actualAll .actual ul li:nth-child(1) h3 {
+  width: 12vw;
+}
+.actualAll .actual ul li {
+  display: flex;
+  width: 21vw;
+  justify-content: flex-start;
+  align-items: center;
+}
+.actualAll .actual ul li img {
+  width: 44px;
+}
+
+.freelanceAll {
+  width: 100vw;
+  height: 75vh;
+  max-width: 100%;
+}
+.freelanceAll .freelance {
+  width: 80vw;
+  display: flex;
+  height: 65vh;
+  flex-direction: column;
+}
+.freelanceAll .freelance .freelanceHolder {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  align-items: center;
+}
+.freelanceAll .freelance .freelanceHolder .smvse {
+  background-color: #F2F0FE;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 25vh;
+  width: 22vw;
+  border-radius: 10px;
+  box-shadow: 4px 8px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.freelanceAll .freelance .freelanceHolder .smvse p {
+  font-size: 1.2rem;
+  color: #1DBF73;
+  font-weight: 500;
+}
+.freelanceAll .freelance .freelanceHolder .freeCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 25vh;
+  width: 22vw;
+  background-color: #f9f9fb;
+  border-radius: 10px;
+  box-shadow: 4px 8px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.freelanceAll .freelance .freelanceHolder .freeCard button {
+  width: 21vw;
+  border: #1DBF73 solid 1px;
+}
+.freelanceAll .freelance .freelanceHolder .freeCard ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 20vw;
+}
+.freelanceAll .freelance .freelanceHolder .freeCard ul li {
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.freelanceAll .freelance .freelanceHolder .freeCard ul li p:nth-child(1) {
+  font-size: 1.1rem;
+}
+.freelanceAll .freelance .freelanceHolder .freeCard ul li p:nth-child(2) {
+  color: #FBA457;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.resolverAll {
+  width: 100vw;
+  max-width: 100%;
+  height: 50vh;
+}
+.resolverAll .resolver {
+  width: 80vw;
+  display: flex;
+  height: 50vh;
+  flex-direction: column;
+}
+.resolverAll .resolver #nameOsn {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.resolverAll .resolver .resolverHolder {
+  width: 80vw;
+  height: 40vh;
+  justify-content: space-between;
+}
+.resolverAll .resolver .resolverHolder ul {
+  width: 20vw;
+  flex-direction: column;
+  height: 20vh;
+}
+.resolverAll .resolver .resolverHolder ul #nameYsl {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.trustAll {
+  width: 100vw;
+  max-width: 100%;
+  background: url("../mainPage/imgs/Group 31.png");
+  background-size: 100%;
+  height: 75vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+.trustAll .trust {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.trustAll .trust button {
+  width: 12vw;
+  height: 7vh;
+  border-radius: 50px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: #5E4EDB;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.trustAll .trust button:hover {
+  background-color: white;
+  border: 1px solid #5E4EDB;
+  color: #5E4EDB;
+}
+.trustAll .trust #nazvTrust {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 500;
+}
+.trustAll .trust ul:nth-child(4) li {
+  width: 28vw;
+}
+.trustAll .trust ul {
+  background-color: white;
+  width: 30vw;
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+.trustAll .trust ul li {
+  justify-content: space-around;
+  width: 23vw;
+  align-items: center;
+}
+
+.footerAll {
+  width: 100vw;
+  max-width: 100%;
+  height: 50vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F2F0FE;
+}
+.footerAll footer {
+  width: 80vw;
+  justify-content: space-between;
+}
+.footerAll footer ul:nth-child(4) li:nth-child(2) {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 15vw;
+  height: 8vh;
+}
+.footerAll footer ul a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.footerAll footer ul a:hover {
+  color: #1DBF73;
+}
+.footerAll footer ul li {
+  height: 3vh;
+}
+.footerAll footer ul li:nth-child(1) {
+  height: 5vh;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.podkat {
+  color: #FBA457;
+  border: 1px solid #FBA457;
+}
+
+.podkattwo {
+  color: #1DBF73;
+  border: solid 1px #1DBF73;
+}/*# sourceMappingURL=style.css.map */
