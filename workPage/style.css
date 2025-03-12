@@ -608,4 +608,74 @@
   height: 5vh;
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+@media screen and (max-width: 1500px) {
+  .headerAll header ul li:nth-child(7) img:nth-child(2) {
+    width: 4vw;
+  }
+  .headerAll header ul li:nth-child(6) img {
+    width: 1.5vw;
+  }
+  .headerAll header .formenu {
+    position: absolute;
+    left: 77vw;
+  }
+}
+@media screen and (max-width: 1700px) {
+  .headerAll header ul li:nth-child(7) img:nth-child(2) {
+    width: 4vw;
+  }
+  .headerAll header ul li:nth-child(6) img {
+    width: 1.5vw;
+  }
+  .headerAll header .formenu {
+    position: absolute;
+    left: 77vw;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .footerAll footer ul a {
+    font-size: 1vw;
+  }
+  .footerAll footer ul:nth-child(4) li:nth-child(2) img {
+    width: 3vw;
+  }
+  .footerAll {
+    height: 35vh;
+  }
+  .footerAll #nizFooternadp {
+    font-size: 1vw;
+  }
+  .footerAll footer ul li:nth-child(1) {
+    font-size: 1.5vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footerAll footer ul li {
+    height: 2vh;
+  }
+  .footerAll {
+    height: 30vh;
+  }
+  .footerAll footer ul li:nth-child(1) {
+    height: 4vh;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footerAll {
+    height: 25vh;
+  }
+  .footerAll footer {
+    height: 18vh;
+  }
+  .footerAll footer ul li:nth-child(1) {
+    height: 2vh;
+  }
+  .footerAll footer ul li {
+    height: 1vh;
+  }
+  .footerAll footer {
+    height: 10vh;
+  }
 }/*# sourceMappingURL=style.css.map */
