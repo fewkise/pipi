@@ -279,4 +279,17 @@
   border: 1px #1DBF73 solid;
   color: #1DBF73;
   background-color: white;
+}
+
+@media screen and (max-width: 1500px) {
+  .headerAll header ul li:nth-child(7) img:nth-child(2) {
+    width: 4vw;
+  }
+  .headerAll header ul li:nth-child(6) img {
+    width: 1.5vw;
+  }
+  .headerAll header .formenu {
+    position: absolute;
+    left: 77vw;
+  }
 }/*# sourceMappingURL=style.css.map */

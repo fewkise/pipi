@@ -406,3 +406,237 @@ main {
 
     @extend %forflex
 }
+@media screen and (max-width:1700px){
+    main ul button {
+        font-size: 0.9vw;
+        width: auto;
+        padding-left: 0.5vw;
+        padding-right: 0.5vw;
+    }
+    main ul h2 {
+        font-size: 2vw;
+    }
+    main ul h3 {
+        font-size: 2vw;
+    }
+    .headerAll header .formenu {
+        position: absolute;
+        left: 77vw;
+    }
+    .revAll .rev #topUl button {
+        font-size: 0.9vw;
+        width: auto;
+        padding-left: 0.5vw;
+        padding-right: 0.5vw;
+    }
+    .revAll .rev #topUl #buttwo {
+        font-size: 0.9vw;
+        width: auto;
+        padding-left: 0.5vw;
+        padding-right: 0.5vw;
+    }
+    .revAll .rev #topUl h3 {
+        font-size: 1.5vw;
+    }
+    .revAll .rev #topUl li {
+        width: 25vw;
+    }
+    .revAll .card #cardInfo {
+        height: 10vw;
+        h3 {
+            font-size: 1.1vw;
+        }
+        p {
+            font-size: 0.9vw;
+        }
+        h4 {
+            font-size: 1vw;
+        }
+    }
+    .revAll .card h3 {
+        font-size: 1.1vw;
+    }
+    .revAll .card .inCard ul:nth-child(2) {
+        p {
+            font-size: 0.9vw;
+        }
+        h5 {
+            font-size: 0.9vw;
+        }
+    }
+    .revAll .card .inCard {
+        img {
+            width: 5vw;
+        }
+    }
+
+}
+@media screen and (max-width:1500px) {
+    .headerAll header ul li:nth-child(7){
+        img:nth-child(2) {
+            width: 4vw;
+        }
+    }
+    .headerAll header ul li:nth-child(6) {
+        img {
+            width: 1.5vw;
+        }
+    }
+    .headerAll header .formenu {
+        position: absolute;
+        left: 77vw;
+    }
+    main ul button {
+        font-size: 0.9vw;
+    }
+    main ul form button {
+        font-size: 1vw;
+        height: 3vw;
+    }
+    main ul form {
+        height: 3vw;
+    }
+    main ul form input {
+        height: 3vw;
+        font-size: 1vw;
+    }
+    .revAll #more {
+        font-size: 1vw;
+        height: 3vh;
+    }
+    
+}
+@media screen and (max-width:1360px) {
+    .revAll .card ul {
+        padding-top: 0.5vw;
+    }
+    .footerAll footer ul a {
+        font-size: 1vw;
+    }
+    .footerAll footer ul:nth-child(4) li:nth-child(2) {
+        img {
+            width: 3vw;
+        }
+    }
+    .footerAll {
+        height: 35vh;
+        #nizFooternadp {
+            font-size: 1vw;
+        }
+    }
+    .footerAll footer ul li:nth-child(1) {
+        font-size: 1.5vw;
+    }
+    
+}
+@media screen and (max-width:998px){
+    main {
+        height: 60vw;
+    }
+    .headerAll {
+        height: 80vw;
+    }
+    .headerAll header ul li:nth-child(1) a {
+        img {
+            width: 20vw;
+        }
+    }
+    .revAll .card .inCard ul:nth-child(2) {
+        height: 8vh;
+    }
+    .revAll .card ul {
+        height: 9vh;
+        justify-content: space-around;
+    }
+    .revAll .card .inCard {
+        height: 7vh;
+    }
+    .revAll .rev {
+        height: 160vh;
+    }
+    .revAll {
+        height: 170vh;
+    }
+}
+@media screen and (max-width:768px) {
+    main ul button {
+        height: 2vw;
+    }
+    main ul {
+        height: 35vw;
+    }
+    .footerAll footer ul li {
+        height: 2vh;
+    }
+    .footerAll {
+        height: 30vh;
+    }
+    .footerAll footer ul li:nth-child(1) {
+        height: 4vh;
+    }
+}
+@media screen and (max-width:480px) {
+    .headerAll header ul {
+        li:nth-child(2){
+            opacity: 0;
+        }
+        li:nth-child(3){
+            opacity: 0;
+        }
+        li:nth-child(4){
+            opacity: 0;
+        }
+        li:nth-child(5){
+            opacity: 0;
+        }
+
+    }
+    .headerAll {
+        height: 60vw;
+    }
+    .revAll .card {
+        height: 6vh;
+        border-radius: 8px;
+    }
+    .revAll .card ul {
+        height: 4vh;
+    }
+    .revAll .card .inCard ul:nth-child(2) {
+        height: 4vh;
+    }
+    .revAll .card .inCard {
+        height: 4vh;
+    }
+    .revAll .rev {
+        height: 115vh;
+    }
+    .revAll {
+        height: 125vh;
+    }
+    .revAll .rev #topUl #buttwo {
+        height: 2vh;
+    }
+    .revAll .rev #topUl{
+        height: 5vh;
+    }
+    .revAll .rev #topUl li {
+        button {
+            height: 2vh;
+        }
+    }
+    .footerAll {
+        height: 25vh;
+        footer {
+            height: 18vh;
+        }
+    }
+    .footerAll footer ul li:nth-child(1) {
+        height: 2vh;
+    }
+    .footerAll footer ul li {
+        height: 1vh;
+    }
+    .footerAll footer {
+        height: 10vh;
+    }
+}
