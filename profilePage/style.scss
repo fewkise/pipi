@@ -480,6 +480,40 @@ main {
     }
 }
 @media screen and (max-width:1700px) {
+    .reviewAll .review #revTop li:nth-child(1) p {
+        font-size: 1.5vw;
+    }
+    .reviewAll .review .reviewHolder .reviewCard ul:nth-child(1) li p {
+        font-size: 1vw;
+    }
+    .reviewAll .review .reviewHolder .reviewCard ul:nth-child(1) {
+        img:nth-child(1) {
+            width: 4vw;
+        }
+        img:nth-child(2) {
+            width: 7vw;
+        }
+    }
+    .reviewAll .review #revTop li:nth-child(2) {
+        width: auto;
+        column-gap: 2vw;
+    }
+    .reviewAll .review #revTop li:nth-child(2) p {
+        font-size: 1.5vw;
+    }
+    .worksAll {
+        .works {
+            h2 {
+                font-size: 1.5vw;
+            }
+        }
+    }
+    .worksAll .works .worksHolder .cardWork li p {
+        font-size: 1vw;
+    }
+    .worksAll .works .worksHolder .newWork p {
+        font-size: 1.4vw;
+    }
     .headerAll header ul li:nth-child(7){
         img:nth-child(2) {
             width: 4vw;
@@ -511,11 +545,76 @@ main {
     main ul li:nth-child(5) button {
         font-size: 1vw;
     }
+    .worksAll #more {
+        font-size: 0.9vw;
+        width: auto;
+        padding-right: 2vw;
+        padding-left: 2vw;
+        height: auto;
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+    }
 }
 @media screen and (max-width:1360px) {
+    .worksAll .works .worksHolder .cardWork {
+        height: auto;
+    }
+    .worksAll .works .worksHolder .cardWork li:nth-child(1) {
+        height: 15vh;
+    }
+    .reviewAll .review .reviewHolder .reviewCard {
+        height:auto;
+    }
+    .reviewAll .review .reviewHolder .reviewCard ul:nth-child(2) {
+        height: auto;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    .reviewAll .review {
+        height: auto;
+        row-gap: 5vw;
+    }
+    .reviewAll #more {
+        font-size: 0.9vw;
+        width: auto;
+        padding-right: 2vw;
+        padding-left: 2vw;
+        height: auto;
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+    }
+    .reviewAll {
+        height: auto;
+        row-gap: 5vw;
+        padding-bottom: 5vh;
+    }
+    .reviewAll .review .reviewHolder .reviewCard ul:nth-child(1) {
+        height: auto;
+        li{
+            height: auto;
+            row-gap: 1vw;
+            padding-top: 1vh;
+        }
+    }
+    .reviewAll .review .reviewHolder {
+        height: auto;
+        row-gap: 5vw;
+    }
     .footerAll footer ul a {
         font-size: 1vw;
     }
+    .worksAll .works {
+        height: 100vh;
+    }
+    .worksAll {
+        height: 110vh;
+    }
+    .worksAll .works .worksHolder .newWork {
+        img {
+            width: 6vw;
+        }
+    }
+
     .footerAll footer ul:nth-child(4) li:nth-child(2) {
         img {
             width: 3vw;
@@ -533,6 +632,18 @@ main {
     
 }
 @media screen and (max-width:998px) {
+    .worksAll .works .worksHolder .cardWork {
+        height: auto;
+    }
+    .worksAll .works .worksHolder .newWork {
+        height: 15vh;
+    }
+    .worksAll {
+        height: 100vh;
+    }
+    .worksAll .works {
+        height: 90vh;
+    }
     main ul li:nth-child(4) {
         button {
             height: 3vh;
@@ -563,6 +674,24 @@ main {
     main #bgProfile {
         height: 30vh;
     }
+    .worksAll .works .worksHolder .cardWork {
+        height: 15vh;
+    }
+
+    .worksAll .works .worksHolder .newWork {
+        height: 12vh;
+    }
+    .worksAll .works {
+        height: 80vh;
+    }
+    .worksAll {
+        height: 85vh;
+    }
+    .worksAll #more {
+        height: auto;
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+    }
     main {
         height: 30vh;
     }
@@ -585,8 +714,30 @@ main {
     .footerAll footer ul li:nth-child(1) {
         height: 4vh;
     }
+    main ul li:nth-child(4) button  {
+        height: auto;
+        padding-top: 0.6vh;
+        padding-bottom: 0.6vh;
+    }
 }
 @media screen and (max-width:480px) {
+    main ul li:nth-child(4) button  {
+        height: auto;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    .worksAll .works .worksHolder .cardWork {
+        height: 13vh;
+    }
+    .worksAll .works {
+        height: 60vh;
+    }
+    .worksAll {
+        height: 65vh;
+    }
+    .worksAll .works .worksHolder .cardWork {
+        width:19vw;
+    }
     .headerAll {
         height: 35vh;
         main {

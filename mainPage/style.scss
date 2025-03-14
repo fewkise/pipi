@@ -608,6 +608,11 @@ main {
     .freelanceAll .freelance .freelanceHolder .freeCard {
         height: 20vh;
     }
+    .headerAll header ul li:nth-child(1) a {
+        img {
+            width: 20vw;
+        }
+    }
     .trustAll .trust {
         height: 40vh;
     }
@@ -651,10 +656,20 @@ main {
     main {
         height: 50vh;
     }
+    .trustAll .trust ul {
+        img {
+            width: 5vw;
+        }
+    }
 }
 @media screen and (max-width:768px){
     .freelanceAll .freelance .freelanceHolder .freeCard {
         height: 15vh;
+    }
+    .trustAll .trust ul {
+        height: auto;
+        padding-top: 0.7vh;
+        padding-bottom: 0.7vh;
     }
     .trustAll {
         height: 60vh;
@@ -720,6 +735,12 @@ main {
     main .slevaAll ul:nth-child(1) {
         height: 20vh;
     } 
+    .trustAll .trust button {
+        height: auto;
+        padding-top: 0.7vh;
+        padding-bottom: 0.7vh;
+    }
+
 }
     
 
@@ -729,6 +750,14 @@ main {
         footer {
             height: 18vh;
         }
+    }
+    .actualAll .actual ul li img {
+        width: 3vw;
+    }
+    .actualAll .actual ul button {
+        height: auto;
+        padding-top: 0.7vh;
+        padding-bottom: 0.7vh;
     }
     .footerAll footer ul li:nth-child(1) {
         height: 2vh;
@@ -751,7 +780,9 @@ main {
         height: 27vh;
     }
     .trustAll .trust ul {
-        height: 4vh;
+        height: auto;
+        padding-top: 0.7vh;
+        padding-bottom: 0.7vh;
         img {
             width: 3vw;
         }
