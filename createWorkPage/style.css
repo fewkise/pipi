@@ -279,10 +279,14 @@
   }
   .headerAll header .formenu {
     position: absolute;
-    left: 77vw;
+    top: 3vw;
+    width: 3vw;
   }
 }
 @media screen and (max-width: 1700px) {
+  .headerAll header ul li:nth-child(7) img:nth-child(2) {
+    width: 4vw;
+  }
   .headerAll header ul li:nth-child(7) img:nth-child(2) {
     width: 4vw;
   }
@@ -291,6 +295,135 @@
   }
   .headerAll header .formenu {
     position: absolute;
-    left: 77vw;
+    top: 3vw;
+    width: 3vw;
+  }
+  .headerAll header ul li button {
+    font-size: 1vw;
+    width: auto;
+    height: auto;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    padding-right: 0.5vw;
+    padding-left: 0.5vw;
+  }
+  .headerAll header .formenu:hover li {
+    height: auto;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+  .headerAll header .formenu:hover li:nth-child(1) {
+    padding: 0;
+  }
+  .headerAll header ul li:nth-child(6) img {
+    width: 1.5vw;
+  }
+  .headerAll header .formenu {
+    position: absolute;
+    left: 90vw;
+  }
+  .CWAll .createWork .forFon {
+    background-size: 55vw;
+  }
+  .CWAll .createWork .cardCW li:nth-child(1) {
+    font-size: 1.3vw;
+    height: auto;
+  }
+  .CWAll .createWork .cardCW li:nth-child(1) form {
+    height: auto;
+  }
+  .CWAll .createWork .cardCW li:nth-child(1) form input {
+    height: auto;
+    font-size: 1vw;
+  }
+  .CWAll .createWork .cardCW ul:nth-child(1) {
+    height: auto;
+  }
+  .CWAll .createWork .cardCW ul:nth-child(1) li {
+    height: auto;
+    row-gap: 1vh;
+  }
+  .CWAll .createWork .cardCW {
+    height: auto;
+    row-gap: 4vh;
+  }
+  .CWAll .createWork .cardCW ul:nth-child(3) li:nth-child(2) {
+    height: auto;
+    row-gap: 1vh;
+  }
+  .CWAll .createWork .cardCW ul:nth-child(3) {
+    height: auto;
+  }
+  .CWAll .createWork .cardCW ul:nth-child(3) li:nth-child(1) {
+    height: auto;
+    padding-bottom: 1vh;
+  }
+  .CWAll .createWork .continue button {
+    font-size: 1vw;
+    height: auto;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+  }
+  .CWAll .createWork .cardCW ul:nth-child(2) {
+    font-size: 1.3vw;
+    height: auto;
+  }
+  .CWAll .createWork .cardCW ul:nth-child(2) form {
+    height: auto;
+  }
+  .CWAll .createWork .cardCW ul:nth-child(2) form input {
+    height: auto;
+    font-size: 1vw;
+  }
+  .CWAll .createWork .cardCW ul:nth-child(2) li {
+    height: auto;
+    row-gap: 1vh;
+  }
+  .CWAll .createWork .cardCW ul:nth-child(3) li:nth-child(2) button {
+    font-size: 1vw;
+    height: auto;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+  }
+  .CWAll .createWork .cardCW ul:nth-child(3) li:nth-child(2) button img {
+    width: 1vw;
+  }
+}
+@media screen and (max-width: 998px) {
+  .headerAll header ul li:nth-child(1) a img {
+    width: 20vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .CWAll .createWork .forFon {
+    height: 10vh;
+  }
+  .headerAll {
+    height: 10vh;
+  }
+  .headerAll header {
+    height: 10vh;
+  }
+}
+@media screen and (max-width: 480px) {
+  .CWAll .createWork .forFon {
+    height: 10vh;
+  }
+  .headerAll header ul li:nth-child(2) {
+    opacity: 0;
+  }
+  .headerAll header ul li:nth-child(3) {
+    opacity: 0;
+  }
+  .headerAll header ul li:nth-child(4) {
+    opacity: 0;
+  }
+  .headerAll header ul li:nth-child(5) {
+    opacity: 0;
+  }
+  .headerAll header ul li button:nth-child(2) {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
