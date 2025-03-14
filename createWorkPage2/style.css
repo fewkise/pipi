@@ -406,4 +406,166 @@
     position: absolute;
     left: 77vw;
   }
+  .CWAll .createWork .cardCW .pokets #nazv {
+    font-size: 1.5vw;
+  }
+  .CWAll .createWork .cardCW .poketCard .nazvCard {
+    font-size: 1.5vw;
+  }
+  .CWAll .createWork .cardCW .poketCard ul p {
+    font-size: 1.2vw;
+  }
+  .CWAll .createWork .cardCW .poketCard ul form input {
+    font-size: 1vw;
+  }
+  .CWAll .createWork .cardCW .poketCard button {
+    font-size: 1vw;
+    width: auto;
+    height: auto;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+  .CWAll .createWork .cardCW .poketCard ul {
+    height: auto;
+  }
+  .CWAll .createWork .cardCW .poketCard ul li {
+    height: auto;
+    row-gap: 1vh;
+    padding-bottom: 1vh;
+  }
+  .CWAll .createWork .cardCW .poketsHolder {
+    height: auto;
+  }
+  .CWAll .createWork .cardCW .pokets {
+    height: auto;
+    row-gap: 3vh;
+  }
+  .CWAll .createWork .cardCW {
+    height: auto;
+    padding-bottom: 3vh;
+  }
+  .CWAll .createWork .forFon {
+    background-size: 55vw;
+  }
+  .dopOptions .options .nazvOpt {
+    font-size: 1.5vw;
+  }
+  .dopOptions .options .donOptionsCard .slevacard #zirNazv {
+    font-size: 1.2vw;
+    width: auto;
+  }
+  .dopOptions .options .donOptionsCard .slevacard ul li {
+    width: auto;
+  }
+  .dopOptions .options .donOptionsCard .slevacard ul form input {
+    font-size: 1vw;
+  }
+  .dopOptions .options .donOptionsCard .slevacard ul:nth-child(3) input {
+    font-size: 1vw;
+  }
+  .dopOptions .options .donOptionsCard .slevacard ul li {
+    height: auto;
+    row-gap: 1vh;
+  }
+  .dopOptions .options .donOptionsCard .slevacard ul li {
+    height: auto;
+    row-gap: 1vh;
+  }
+  .dopOptions .options .donOptionsCard .slevacard ul {
+    height: auto;
+    row-gap: 1vh;
+  }
+  .dopOptions .options .donOptionsCard .slevacard {
+    height: auto;
+    row-gap: 3vh;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+  }
+  .dopOptions .options .donOptionsCard .slevacard ul:nth-child(4) button {
+    font-size: 1vw;
+    width: auto;
+    height: auto;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+  .dopOptions .options {
+    height: auto;
+    row-gap: 2vh;
+  }
+  .dopOptions {
+    height: auto;
+    row-gap: 5vh;
+    padding-bottom: 5vh;
+  }
+  .dopOptions .continue button {
+    font-size: 1vw;
+    width: auto;
+    height: auto;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+  .dopOptions .options .donOptionsCard .spravaCard {
+    height: 23vw;
+    row-gap: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+  .dopOptions .options .donOptionsCard .spravaCard img {
+    width: 5vw;
+  }
+  .dopOptions .options .donOptionsCard .spravaCard p {
+    font-size: 1.2vw;
+  }
+  .dopOptions .options .donOptionsCard {
+    height: auto;
+  }
+  .CWAll .createWork .cardCW .poketCard {
+    height: auto;
+    row-gap: 1vh;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+  }
+  .CWAll .createWork .cardCW .poketCard ul li:nth-child(1) form {
+    height: 5vw;
+  }
+  .CWAll .createWork .cardCW .poketCard ul li:nth-child(1) {
+    height: auto;
+    row-gap: 2vh;
+  }
+}
+@media screen and (max-width: 998px) {
+  .headerAll header ul li:nth-child(1) a img {
+    width: 20vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .headerAll {
+    height: 10vh;
+  }
+  .headerAll header {
+    height: 10vh;
+  }
+}
+@media screen and (max-width: 480px) {
+  .CWAll .createWork .forFon {
+    height: 10vh;
+  }
+  .headerAll header ul li:nth-child(2) {
+    opacity: 0;
+  }
+  .headerAll header ul li:nth-child(3) {
+    opacity: 0;
+  }
+  .headerAll header ul li:nth-child(4) {
+    opacity: 0;
+  }
+  .headerAll header ul li:nth-child(5) {
+    opacity: 0;
+  }
 }/*# sourceMappingURL=style.css.map */
