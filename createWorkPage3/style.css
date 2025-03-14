@@ -334,4 +334,120 @@
     position: absolute;
     left: 77vw;
   }
+  .CWAll .createWork .forFon {
+    background-size: 55vw;
+  }
+  .CWAll .createWork .cardCW .nazvOp {
+    font-size: 1.5vw;
+  }
+  .CWAll .createWork .cardCW {
+    height: auto;
+    row-gap: 3vh;
+  }
+  .CWAll .createWork .cardCW .opisAll ul img {
+    width: 1.5vw;
+  }
+  .CWAll .createWork .cardCW .opisAll ul li:nth-child(1) {
+    width: auto;
+    -moz-column-gap: 0.5vw;
+         column-gap: 0.5vw;
+  }
+  .CWAll .createWork .cardCW .opisAll ul {
+    height: auto;
+    row-gap: 1vh;
+  }
+  .CWAll .createWork .cardCW .opisAll ul li:nth-child(2) {
+    height: 5vh;
+  }
+  .CWAll .createWork .cardCW .opisAll ul li:nth-child(2) form input {
+    font-size: 1vw;
+  }
+  .CWAll .createWork .cardCW .questionsAll .questions .quesSleva ul p {
+    font-size: 1.2vw;
+  }
+  .CWAll .createWork .cardCW .questionsAll .questions .quesSleva ul form input {
+    font-size: 1vw;
+  }
+  .CWAll .createWork .cardCW .questionsAll .questions .quesSleva ul button {
+    font-size: 1vw;
+    width: auto;
+    height: auto;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+  .CWAll .createWork .cardCW .questionsAll .questions .quesSleva ul {
+    height: auto;
+    row-gap: 3vh;
+  }
+  .CWAll .createWork .cardCW .questionsAll .questions .quesSleva {
+    height: auto;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+  .CWAll .createWork .cardCW .questionsAll .questions {
+    height: auto;
+  }
+  .CWAll .createWork .cardCW .questionsAll {
+    height: auto;
+    row-gap: 3vh;
+  }
+  .CWAll .createWork .continue button {
+    font-size: 1vw;
+    width: auto;
+    height: auto;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+  .CWAll .createWork .cardCW .questionsAll .questions .quesSprava {
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    height: auto;
+  }
+  .CWAll .createWork .cardCW .questionsAll .questions .quesSprava ul p {
+    font-size: 1vw;
+  }
+  .CWAll .createWork .cardCW .questionsAll .questions .quesSprava img {
+    width: 3vw;
+  }
+}
+@media screen and (max-width: 998px) {
+  .headerAll header ul li:nth-child(1) a img {
+    width: 20vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .headerAll {
+    height: 10vh;
+  }
+  .headerAll header {
+    height: 10vh;
+  }
+  .CWAll .createWork .cardCW .questionsAll .questions .quesSleva ul {
+    row-gap: 1vh;
+  }
+  .CWAll .createWork .cardCW .questionsAll .questions .quesSprava {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+  }
+}
+@media screen and (max-width: 480px) {
+  .CWAll .createWork .forFon {
+    height: 10vh;
+  }
+  .headerAll header ul li:nth-child(2) {
+    opacity: 0;
+  }
+  .headerAll header ul li:nth-child(3) {
+    opacity: 0;
+  }
+  .headerAll header ul li:nth-child(4) {
+    opacity: 0;
+  }
+  .headerAll header ul li:nth-child(5) {
+    opacity: 0;
+  }
 }/*# sourceMappingURL=style.css.map */
