@@ -413,6 +413,124 @@ main .slevaChat .poisk form .placeholder {
   }
 }
 @media screen and (max-width: 1700px) {
+  main .spravaChat .chat p {
+    font-size: 1vw;
+  }
+  main .spravaChat .chat ul:nth-child(1) li:nth-child(2) p:nth-child(1) {
+    font-size: 1.1vw;
+  }
+  main .spravaChat .chat ul:nth-child(1) img {
+    width: 4vw;
+  }
+  main .spravaChat .chat {
+    height: auto;
+    row-gap: 4vw;
+  }
+  main .spravaChat {
+    height: auto;
+  }
+  main {
+    height: auto;
+    row-gap: 5vw;
+  }
+  .headerAll {
+    height: auto;
+    row-gap: 5vw;
+  }
+  main .spravaChat .chat ul:nth-child(1) {
+    height: auto;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+  main .spravaChat .chat ul:nth-child(2) {
+    height: auto;
+    row-gap: 2vh;
+  }
+  main .spravaChat .chat ul:nth-child(2) #mesOne {
+    height: auto;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+  main .spravaChat .chat ul:nth-child(2) #mesOne p {
+    padding: 0;
+  }
+  main .spravaChat .chat ul:nth-child(2) #mesThree {
+    height: auto;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+  main .spravaChat .chat ul:nth-child(2) #mesThree p {
+    padding: 0;
+  }
+  main .spravaChat .chat ul:nth-child(2) #forAdds {
+    height: auto;
+    row-gap: 1vw;
+  }
+  main .spravaChat .chat ul:nth-child(2) #forAdds li {
+    height: auto;
+  }
+  main .spravaChat .chat ul:nth-child(2) #forAdds img {
+    width: 4vw;
+  }
+  main .spravaChat .chat ul:nth-child(2) #forAdds li:nth-child(3) {
+    background-size: calc(auto-2vw);
+    height: 5vw;
+    background-position: top;
+  }
+  main .spravaChat .chat ul:nth-child(2) #forAdds li:nth-child(3) p {
+    padding-top: 3.8vw;
+  }
+  main .spravaChat .chat ul:nth-child(3) {
+    height: auto;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+  }
+  main .spravaChat .chat ul:nth-child(3) form input {
+    font-size: 1vw;
+    height: auto;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 1vw;
+  }
+  main .spravaChat .chat ul:nth-child(3) form {
+    height: auto;
+  }
+  main .spravaChat .chat ul:nth-child(3) #addBut {
+    height: auto;
+    padding-top: 1vh;
+    padding-bottom: 0.5vh;
+    width: auto;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+  }
+  main .spravaChat .chat ul:nth-child(3) #addBut img {
+    width: 1vw;
+  }
+  main .spravaChat .chat ul:nth-child(3) #sendBut {
+    font-size: 1vw;
+    width: auto;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    height: auto;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+  main .spravaChat .chat ul:nth-child(2) #mesTwo {
+    height: auto;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+  main .spravaChat .chat ul:nth-child(2) #mesTwo p {
+    padding: 0;
+  }
   .headerAll header ul li:nth-child(7) img:nth-child(2) {
     width: 4vw;
   }
@@ -422,6 +540,47 @@ main .slevaChat .poisk form .placeholder {
   .headerAll header .formenu {
     position: absolute;
     left: 77vw;
+  }
+  main .slevaChat .cardChat img {
+    width: 4vw;
+  }
+  main .slevaChat .cardChat p {
+    font-size: 1vw;
+  }
+  main .slevaChat .cardChat ul {
+    width: auto;
+    -moz-column-gap: 1vw;
+         column-gap: 1vw;
+    height: auto;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+  main .slevaChat .cardChat {
+    width: auto;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    height: auto;
+  }
+  main .slevaChat {
+    height: auto;
+    row-gap: 1vw;
+    justify-content: space-between;
+  }
+  main .slevaChat .poisk form {
+    width: calc(auto-2vw);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+  }
+  main .slevaChat .poisk form input {
+    height: auto;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+  }
+  main .slevaChat .poisk form .placeholder {
+    left: -16vw;
+    top: 0vw;
   }
 }
 @media screen and (max-width: 1360px) {
@@ -441,6 +600,11 @@ main .slevaChat .poisk form .placeholder {
     font-size: 1.5vw;
   }
 }
+@media screen and (max-width: 998px) {
+  .headerAll header ul li:nth-child(1) a img {
+    width: 20vw;
+  }
+}
 @media screen and (max-width: 768px) {
   .footerAll footer ul li {
     height: 2vh;
@@ -451,8 +615,72 @@ main .slevaChat .poisk form .placeholder {
   .footerAll footer ul li:nth-child(1) {
     height: 4vh;
   }
+  main {
+    flex-direction: column-reverse;
+  }
+  main .slevaChat {
+    flex-direction: row;
+    justify-content: flex-start;
+    width: auto;
+    flex-wrap: wrap;
+    -moz-column-gap: 3vw;
+         column-gap: 3vw;
+    justify-content: space-around;
+  }
+  main .slevaChat .poisk {
+    display: none;
+  }
+  main .spravaChat .chat {
+    width: auto;
+  }
+  main .spravaChat {
+    width: 80vw;
+  }
+  main .spravaChat .chat ul:nth-child(1) {
+    width: 80vw;
+  }
+  main .spravaChat .chat ul:nth-child(1) li:nth-child(2) {
+    width: 70vw;
+  }
+  main .spravaChat .chat ul:nth-child(3) {
+    width: 75vw;
+    -moz-column-gap: 6vw;
+         column-gap: 6vw;
+  }
+  main .spravaChat .chat ul:nth-child(3) form {
+    width: 50vw;
+  }
+  main .spravaChat .chat ul:nth-child(3) form input {
+    width: 45vw;
+  }
+  main .spravaChat .chat ul:nth-child(3) #addBut {
+    height: 3vw;
+    padding-top: 0;
+    width: 3vw;
+  }
+  .headerAll {
+    height: 90vh;
+  }
+  main .spravaChat .chat ul:nth-child(2) {
+    width: 75vw;
+  }
 }
 @media screen and (max-width: 480px) {
+  .headerAll {
+    height: 80vh;
+  }
+  .headerAll header ul li:nth-child(2) {
+    opacity: 0;
+  }
+  .headerAll header ul li:nth-child(3) {
+    opacity: 0;
+  }
+  .headerAll header ul li:nth-child(4) {
+    opacity: 0;
+  }
+  .headerAll header ul li:nth-child(5) {
+    opacity: 0;
+  }
   .footerAll {
     height: 25vh;
   }
