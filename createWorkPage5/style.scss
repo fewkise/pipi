@@ -363,6 +363,88 @@
             width: 4vw;
         }
     }
+    .CWAll .createWork .cardCW .nazvOp {
+        font-size: 1.5vw;
+        height: auto;
+    }
+    .CWAll .createWork .cardCW .allYoutube .nazvOp {
+        font-size: 1.5vw;
+    }
+    .CWAll .createWork .cardCW .allYoutube {
+        height: auto;
+        row-gap: 1vh;
+    }
+    .CWAll .createWork .cardCW .allYoutube .optwo {
+        height: auto;
+    }
+    .CWAll .createWork .cardCW {
+        height: auto;
+        row-gap: 1vh;
+    }
+    .CWAll .createWork .cardCW .allYoutube ul li:nth-child(2) p {
+        font-size: 1vw;
+    }
+    .CWAll .createWork .cardCW .allYoutube ul li:nth-child(1) {
+        width: auto;
+        column-gap: 0.5vw;
+    }
+    .CWAll .createWork .cardCW .allYoutube ul li:nth-child(2) {
+        height: auto;
+        row-gap: 0.5vh;
+    }
+    .CWAll .createWork .cardCW .documentsAll {
+        height: auto;
+        row-gap: 0.5vh;
+    }
+    .CWAll .createWork .cardCW .documentsAll ul li:nth-child(1) {
+        height: auto;
+        row-gap: 0.5vh;
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+    }
+    .CWAll .createWork .cardCW .documentsAll ul li:nth-child(3) {
+        img {
+            width: 1vw;
+        }
+    }
+    .CWAll .createWork .cardCW .documentsAll ul li:nth-child(4) {
+        img {
+            width: 1vw;
+        }
+    }
+    .CWAll .createWork .cardCW .documentsAll ul li:nth-child(1) {
+        img {
+            width: 2vw;
+        }
+    }
+    .CWAll .createWork .cardCW .documentsAll ul {
+        height: auto;
+        row-gap: 1vh;
+    }
+    .CWAll .createWork .cardCW .allYoutube ul li:nth-child(2) form input {
+        font-size: 1vw;
+    }
+    .allYoutube {
+
+        img {
+            width: 7vw;
+        }
+    }
+    .CWAll .createWork .cardCW {
+        
+        p {
+            font-size: 1vw;
+        }
+    }
+    .CWAll .createWork .continue button {
+        font-size: 1vw;
+        width: auto;
+        height: auto;
+        padding-right: 4vw;
+        padding-left: 4vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
     .headerAll header ul li:nth-child(6) {
         img {
             width: 1.5vw;
@@ -371,5 +453,43 @@
     .headerAll header .formenu {
         position: absolute;
         left: 77vw;
+    }
+    .CWAll .createWork .forFon {
+        background-size: 55vw;
+    }
+}
+@media screen and (max-width:998px) {
+    .headerAll header ul li:nth-child(1) a {
+        img {
+            width: 20vw;
+        }
+    }
+}
+@media screen and  (max-width: 768px){
+    .headerAll{
+        height: 10vh;
+        header {
+            height: 10vh;
+        }
+    } 
+}
+@media screen and  (max-width: 480px){
+    .CWAll .createWork .forFon {
+        height: 10vh;
+    }
+    .headerAll header ul {
+        li:nth-child(2){
+            opacity: 0;
+        }
+        li:nth-child(3){
+            opacity: 0;
+        }
+        li:nth-child(4){
+            opacity: 0;
+        }
+        li:nth-child(5){
+            opacity: 0;
+        }
+
     }
 }
