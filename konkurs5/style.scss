@@ -248,4 +248,78 @@
         position: absolute;
         left: 77vw;
     }
+    .CWAll .createWork .forFon {
+        background-size: 55vw;
+    }
+    .CWAll .createWork .continue button {
+        font-size: 1vw;
+        width: auto;
+        height: auto;
+        padding-right: 4vw;
+        padding-left: 4vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    .CWAll .createWork .cardCW .nazvOp {
+        height: auto;
+        font-size: 1.5vw;
+    }
+    .cardCW {
+        p {
+            font-size: 1vw;
+        }
+    }
+    .CWAll .createWork .cardCW .opisAll {
+        background-size:25vw;
+        height: 37vh;
+    }
+    .CWAll .createWork .continue {
+        height: auto;
+
+    }
+    .CWAll .createWork .cardCW {
+        height: auto;
+        row-gap: 1vh;
+    }
+}
+@media screen and (max-width:998px) {
+    .headerAll header ul li:nth-child(1) a {
+        img {
+            width: 20vw;
+        }
+    }
+}
+@media screen and  (max-width: 768px){
+    .headerAll{
+        height: 10vh;
+        header {
+            height: 10vh;
+        }
+    } 
+    .CWAll .createWork .cardCW .opisAll {
+        height: 20vh;
+    }
+}
+@media screen and  (max-width: 480px){
+    .CWAll .createWork .forFon {
+        height: 10vh;
+    }
+    .CWAll .createWork .cardCW .opisAll {
+        height: 10vh;
+    } 
+    .headerAll header ul {
+        li:nth-child(2){
+            opacity: 0;
+        }
+        li:nth-child(3){
+            opacity: 0;
+        }
+        li:nth-child(4){
+            opacity: 0;
+        }
+        li:nth-child(5){
+            opacity: 0;
+        }
+
+    }
 }
