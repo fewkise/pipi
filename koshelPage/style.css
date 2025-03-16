@@ -362,6 +362,90 @@ main .blockHolderSleva .blockHolder ul li:nth-child(1) {
     position: absolute;
     left: 77vw;
   }
+  .headerAll header ul li:nth-child(7) img:nth-child(3) {
+    width: 1.5vw;
+  }
+  main h1 {
+    font-size: 2vw;
+  }
+  main .blockHolderSleva .blockHolder ul p {
+    font-size: 1vw;
+  }
+  main .koshelAll .holderSprava ul li p {
+    font-size: 1.5vw;
+  }
+  main .koshelAll .holderSprava ul li button {
+    width: auto;
+    height: auto;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-top: 0.5vw;
+  }
+  main .koshelAll .holderSprava ul li button img {
+    width: 5vw;
+  }
+  main .koshelAll .holderSprava ul {
+    height: auto;
+    row-gap: 3vh;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+  }
+  main .blockHolderSleva .blockHolder ul {
+    height: auto;
+    row-gap: 3vh;
+  }
+  main .blockHolderSleva .blockHolder {
+    height: auto;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+  }
+  main .blockHolderSleva {
+    height: auto;
+    row-gap: 6vh;
+  }
+  main {
+    height: auto;
+    row-gap: 1vh;
+  }
+  main .koshelAll .holderSprava {
+    height: auto;
+    row-gap: 1vh;
+  }
+  main .koshelAll {
+    height: auto;
+    row-gap: 1vh;
+    padding-top: 3vh;
+  }
+  .headerAll {
+    height: auto;
+    row-gap: 3vh;
+  }
+  .historyAll #nameHistory {
+    font-size: 1.5vw;
+  }
+  .historyAll .history ul li p {
+    font-size: 1vw;
+  }
+  .historyAll ul:nth-child(1) img {
+    width: 1vw;
+  }
+  .historyAll ul:nth-child(1) button {
+    height: auto;
+    padding: 0.5vw;
+  }
+  .historyAll ul {
+    height: auto;
+    row-gap: 3vh;
+  }
+  .historyAll ul:nth-child(1) {
+    height: auto;
+    row-gap: 1vh;
+  }
+  .historyAll {
+    height: auto;
+    row-gap: 3vh;
+  }
 }
 @media screen and (max-width: 1360px) {
   .footerAll footer ul a {
@@ -380,6 +464,11 @@ main .blockHolderSleva .blockHolder ul li:nth-child(1) {
     font-size: 1.5vw;
   }
 }
+@media screen and (max-width: 998px) {
+  .headerAll header ul li:nth-child(1) a img {
+    width: 20vw;
+  }
+}
 @media screen and (max-width: 768px) {
   .footerAll footer ul li {
     height: 2vh;
@@ -392,6 +481,33 @@ main .blockHolderSleva .blockHolder ul li:nth-child(1) {
   }
 }
 @media screen and (max-width: 480px) {
+  main .koshelAll {
+    flex-direction: column;
+  }
+  main .blockHolderSleva {
+    row-gap: 2vh;
+  }
+  main .blockHolderSleva .blockHolder ul {
+    row-gap: 1vh;
+    width: 25vw;
+  }
+  main .blockHolderSleva .blockHolder {
+    width: 80vw;
+    padding: 0;
+  }
+  main .koshelAll .holderSprava ul {
+    width: 65vw;
+    row-gap: 2vh;
+    padding: 1vh;
+  }
+  main .koshelAll .holderSprava ul li {
+    width: auto;
+    -moz-column-gap: 5vw;
+         column-gap: 5vw;
+  }
+  .headerAll header {
+    height: 8vh;
+  }
   .footerAll {
     height: 25vh;
   }
@@ -406,5 +522,17 @@ main .blockHolderSleva .blockHolder ul li:nth-child(1) {
   }
   .footerAll footer {
     height: 10vh;
+  }
+  .headerAll header ul li:nth-child(2) {
+    opacity: 0;
+  }
+  .headerAll header ul li:nth-child(3) {
+    opacity: 0;
+  }
+  .headerAll header ul li:nth-child(4) {
+    opacity: 0;
+  }
+  .headerAll header ul li:nth-child(5) {
+    opacity: 0;
   }
 }/*# sourceMappingURL=style.css.map */
