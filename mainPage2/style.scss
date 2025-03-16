@@ -471,3 +471,389 @@ main {
     color: #1DBF73;
     border: solid 1px #1DBF73;
 }
+@media screen and (max-width:1500px) {
+    .freelanceAll .freelance .freelanceHolder .freeCard ul li p {
+        font-size: 1vw;
+    }
+    .freelanceAll .freelance .freelanceHolder .freeCard ul li p:nth-child(1) {
+        font-size: 1.2vw;
+    }
+    .freelanceAll .freelance .freelanceHolder .freeCard ul li p:nth-child(2) {
+        font-size: 1vw;
+    }
+    .freelanceAll .freelance .freelanceHolder .freeCard ul li {
+        height: 13vh;
+    }
+    .freelanceAll .freelance .freelanceHolder .freeCard ul li img {
+        width: 7vw;
+    }
+    .freelanceAll .freelance .freelanceHolder .smvse p {
+        font-size: 1.2vw;
+    }
+    .freelanceAll .freelance .freelanceHolder .freeCard button {
+        font-size: 1.1vw;
+    }
+    .footerAll {
+        #nizFooternadp {
+            font-size: 1vw;
+        }
+    }
+}
+@media screen and (max-width:1360px){
+    .actualAll .actual ul li:nth-child(1) h3 {
+        font-size: 1.2vw;
+        width: 12vw;
+    }
+    .trustAll .trust {
+        height: 50vh;
+    }
+    .trustAll .trust #nazvTrust {
+        font-size: 1.5vw;
+    }
+    .trustAll .trust button {
+        height: 5vh;
+        font-size: 1.3vw;
+    }
+    .trustAll .trust ul {
+        height: 6vh;
+        padding-left: 1vw;
+        p {
+            font-size: 1vw;
+            padding-left: 1vw;
+        }
+    }
+    .actualAll .actual ul h4 {
+        font-size: 1vw;
+    }
+    .freelanceAll .freelance .freelanceHolder .freeCard ul li p {
+        font-size: 1vw;
+    }
+    .freelanceAll .freelance .freelanceHolder .freeCard ul li p:nth-child(1) {
+        font-size: 1.2vw;
+    }
+    .freelanceAll .freelance .freelanceHolder .freeCard ul li p:nth-child(2) {
+        font-size: 1vw;
+    }
+    .freelanceAll .freelance .freelanceHolder .freeCard ul li {
+        height: 13vh;
+    }
+    .freelanceAll .freelance .freelanceHolder .freeCard ul li img {
+        width: 7vw;
+    }
+    .headerAll header ul li button {
+        font-size: 1vw;
+    }
+    main .slevaAll ul li button {
+        font-size: 1vw;
+    }
+    main .slevaAll form #search {
+        font-size: 1vw;
+    }
+    main {
+        #BigText {
+           font-size: 2vw; 
+        }
+    }
+}
+@media screen and (max-width:1200px){
+    main .slevaAll ul:nth-child(1) {
+        height: 27vh;
+    }
+    main .slevaAll ul li button {
+        font-size: 0.9vw;
+    }
+    .footerAll footer ul a {
+        font-size: 1vw;
+    }
+    .footerAll footer ul:nth-child(4) li:nth-child(2) {
+        img {
+            width: 3vw;
+        }
+    }
+    .footerAll {
+        height: 35vh;
+    }
+    .footerAll footer ul li:nth-child(1) {
+        font-size: 1.5vw;
+    }
+    .trustAll .trust {
+        height: 43vh;
+    }
+    .resolverAll {
+        height: 40vh;
+    }
+    .resolverAll .resolver .resolverHolder {
+        align-items: center;
+        height: 35vh;
+    }
+    .resolverAll .resolver {
+        height: 38vh;
+    }
+    .resolverAll .resolver #nameOsn {
+        font-size: 1.5vw;
+    }
+    .resolverAll .resolver p {
+        font-size: 1.2vw;
+    }
+    .resolverAll .resolver img {
+        width: 8vw;
+    }
+    .resolverAll .resolver .resolverHolder ul #nameYsl {
+        font-size: 1.4vw;
+    }
+    main {
+        ul {
+            h3 {
+                width: 20vw;
+            }
+        }
+    }
+    .freelanceAll .freelance .freelanceHolder .freeCard button {
+        height: 3vh;
+    }
+}
+@media screen and (max-width:992px){
+    .freelanceAll .freelance .freelanceHolder .freeCard {
+        height: 20vh;
+    }
+    .headerAll header ul li:nth-child(1) a {
+        img {
+            width: 20vw;
+        }
+    }
+    .trustAll .trust {
+        height: 40vh;
+    }
+    .trustAll {
+        background-size: 120%;
+    }
+    .resolverAll .resolver .resolverHolder {
+        height: 25vh;
+        align-items: center;
+    }
+    .resolverAll .resolver {
+        height: 30vh;
+    }
+    .resolverAll {
+        height: 35vh;
+    }
+    .freelanceAll .freelance .freelanceHolder .smvse {
+        height: 20vh;
+    }
+    .freelanceAll .freelance .freelanceHolder .freeCard ul li {
+        height: 9vh;
+    }
+    .headerAll {
+        height: 75vh;
+    }
+    .actualAll .actual ul li img {
+        width: 30px;
+    }
+    .actualAll .actual ul {
+        height: 24vh;
+    }
+    .actualAll .actual .smvse h3 {
+        font-size: 1.6vw;
+    }
+    .actualAll .actual .smvse {
+        height: 24vh;
+    }
+    .actualAll .actual {
+        height: 70vh;
+    }
+    main {
+        height: 50vh;
+    }
+    .trustAll .trust ul {
+        img {
+            width: 5vw;
+        }
+    }
+}
+@media screen and (max-width:768px){
+    .freelanceAll .freelance .freelanceHolder .freeCard {
+        height: 15vh;
+    }
+    .trustAll .trust ul {
+        height: auto;
+        padding-top: 0.7vh;
+        padding-bottom: 0.7vh;
+    }
+    .trustAll {
+        height: 60vh;
+        background-size: 140%;
+    }
+    .footerAll footer ul li {
+        height: 2vh;
+    }
+    .footerAll {
+        height: 30vh;
+    }
+    .footerAll footer ul li:nth-child(1) {
+        height: 4vh;
+    }
+    .trustAll .trust {
+        height: 35vh;
+    }
+    .freelanceAll .freelance {
+        height: 55vh;
+    }
+    .freelanceAll {
+        height: 65vh;
+    }
+    .freelanceAll .freelance .freelanceHolder .smvse {
+        height: 15vh;
+    }
+    .actualAll .actual ul {
+        height: 20vh;
+    }
+    .actualAll .actual ul button {
+        height: 3vh;
+        font-size: 1vw;
+    }
+    .actualAll .actual .smvse {
+        height: 20vh;
+    } 
+
+    .actualAll .actual .smvse h3 {
+        font-size: 1.4vw;
+    }
+    .headerAll {
+        height: 60vh;
+    }
+    .headerAll header {
+        height: 10vh;
+    }
+    main .slevaAll form input {
+        height: 4vh;
+    }
+    main .slevaAll form #search {
+        height: 4vh;
+    }
+    main .slevaAll #BigText {
+        height: 4vh;
+    }
+    main .sprava {
+        height: 40vh;
+    }
+    main {
+        height: 40vh;
+        
+    }
+    main .slevaAll ul:nth-child(1) {
+        height: 20vh;
+    } 
+    .trustAll .trust button {
+        height: auto;
+        padding-top: 0.7vh;
+        padding-bottom: 0.7vh;
+    }
+
+}
+    
+
+@media screen and (max-width:480px) {
+    .footerAll {
+        height: 25vh;
+        footer {
+            height: 18vh;
+        }
+    }
+    .actualAll .actual ul li img {
+        width: 3vw;
+    }
+    .actualAll .actual ul button {
+        height: auto;
+        padding-top: 0.7vh;
+        padding-bottom: 0.7vh;
+    }
+    .footerAll footer ul li:nth-child(1) {
+        height: 2vh;
+    }
+    .footerAll footer ul li {
+        height: 1vh;
+    }
+    .headerAll header ul {
+        h4 {
+            opacity: 0;
+        }
+    }
+    .footerAll footer {
+        height: 10vh;
+    }
+    .trustAll {
+        height: 40vh;
+    }
+    .trustAll .trust {
+        height: 27vh;
+    }
+    .trustAll .trust ul {
+        height: auto;
+        padding-top: 0.7vh;
+        padding-bottom: 0.7vh;
+        img {
+            width: 3vw;
+        }
+    }
+    .trustAll .trust button {
+        height: 3vh;
+    }
+    .resolverAll {
+        height: 27vh;
+    }
+    .freelanceAll {
+        height: 55vh;
+    }
+    .freelanceAll .freelance {
+        height: 50vh;
+    }
+    .resolverAll .resolver {
+        height: 24vh;
+    }
+    .resolverAll .resolver .resolverHolder {
+        height: 20vh;
+        ul {
+            height: 15vh;
+        }
+    }
+    .actualAll {
+        height: 55vh;
+    }
+    .actualAll .actual ul {
+        height: 16vh;
+    }
+    .actualAll .actual {
+        height: 50vh;
+    }
+    .actualAll .actual .smvse {
+        height: 16vh;
+    }
+    .headerAll {
+        height: 50vh;
+    }
+    main .slevaAll form input {
+        height: 2vh;
+    }
+    main .slevaAll form #search {
+        height: 2vh;
+    }
+    main .slevaAll form {
+        height: 2vh;
+    }
+    main .slevaAll ul:nth-child(1) {
+        height: 15vh;
+    } 
+    .headerAll header {
+        height: 6vh;
+    }
+    main .slevaAll #BigText {
+        height: 3vh;
+    }
+    main .sprava {
+        height: 30vh;
+    }
+    main {
+        height: 30vh;
+        
+    }
+}
