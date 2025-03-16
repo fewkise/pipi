@@ -295,12 +295,52 @@
   .headerAll header ul li:nth-child(7) img:nth-child(2) {
     width: 4vw;
   }
+  .headerAll header ul li:nth-child(7) img:nth-child(3) {
+    width: 1.5vw;
+  }
   .headerAll header ul li:nth-child(6) img {
     width: 1.5vw;
   }
   .headerAll header .formenu {
     position: absolute;
     left: 77vw;
+  }
+  .zakaziAll h1 {
+    font-size: 2vw;
+  }
+  .zakaziAll .zakazi #zakaziUl li img {
+    width: 1vw;
+  }
+  .zakaziAll .zakazi #zakaziUl li p {
+    font-size: 1.2vw;
+  }
+  .zakaziAll .zakaziHolder .zakaziCard ul {
+    height: auto;
+    row-gap: 1vh;
+  }
+  .zakaziAll .zakaziHolder .zakaziCard ul p {
+    font-size: 1vw;
+  }
+  .zakaziAll .zakaziHolder .zakaziCard {
+    height: auto;
+    row-gap: 1vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+  .zakaziAll .zakaziHolder {
+    height: auto;
+    row-gap: 3vh;
+  }
+  .zakaziAll .zakazi {
+    height: auto;
+    row-gap: 3vh;
+  }
+  .zakaziAll {
+    height: auto;
+    padding-bottom: 5vh;
+  }
+  .zakaziAll .zakazi #zakaziUl li:nth-child(1) p {
+    font-size: 1.2vw;
   }
 }
 @media screen and (max-width: 1360px) {
@@ -320,6 +360,11 @@
     font-size: 1.5vw;
   }
 }
+@media screen and (max-width: 998px) {
+  .headerAll header ul li:nth-child(1) a img {
+    width: 20vw;
+  }
+}
 @media screen and (max-width: 768px) {
   .footerAll footer ul li {
     height: 2vh;
@@ -332,6 +377,12 @@
   }
 }
 @media screen and (max-width: 480px) {
+  .headerAll header {
+    height: 5vh;
+  }
+  .headerAll {
+    height: 8vh;
+  }
   .footerAll {
     height: 25vh;
   }
@@ -346,5 +397,17 @@
   }
   .footerAll footer {
     height: 10vh;
+  }
+  .headerAll header ul li:nth-child(2) {
+    opacity: 0;
+  }
+  .headerAll header ul li:nth-child(3) {
+    opacity: 0;
+  }
+  .headerAll header ul li:nth-child(4) {
+    opacity: 0;
+  }
+  .headerAll header ul li:nth-child(5) {
+    opacity: 0;
   }
 }/*# sourceMappingURL=style.css.map */
