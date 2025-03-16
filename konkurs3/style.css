@@ -251,6 +251,9 @@
   .headerAll header ul li:nth-child(7) img:nth-child(2) {
     width: 4vw;
   }
+  .headerAll header ul li:nth-child(7) img:nth-child(3) {
+    width: 1.5vw;
+  }
   .headerAll header ul li:nth-child(6) img {
     width: 1.5vw;
   }

@@ -456,6 +456,9 @@ main ul h2 {
   .revAll .card .inCard img {
     width: 5vw;
   }
+  .headerAll header ul li:nth-child(7) img:nth-child(3) {
+    width: 1.5vw;
+  }
 }
 @media screen and (max-width: 1500px) {
   .headerAll header ul li:nth-child(7) img:nth-child(2) {

@@ -438,6 +438,11 @@ main {
             width: 4vw;
         }
     }
+    .headerAll header ul li:nth-child(7) { //СТРЕЛОЧКА ХЕДЕР
+        img:nth-child(3){
+            width: 1.5vw;
+        }
+    }
     main .spravaChat .chat {
         height: auto;
         row-gap: 4vw;

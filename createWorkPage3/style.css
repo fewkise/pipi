@@ -402,6 +402,9 @@
     padding-top: 1vh;
     padding-bottom: 1vh;
   }
+  .headerAll header ul li:nth-child(7) img:nth-child(3) {
+    width: 1.5vw;
+  }
   .CWAll .createWork .cardCW .questionsAll .questions .quesSprava {
     padding-top: 7vh;
     padding-bottom: 7vh;

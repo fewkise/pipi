@@ -422,6 +422,9 @@ main .slevaChat .poisk form .placeholder {
   main .spravaChat .chat ul:nth-child(1) img {
     width: 4vw;
   }
+  .headerAll header ul li:nth-child(7) img:nth-child(3) {
+    width: 1.5vw;
+  }
   main .spravaChat .chat {
     height: auto;
     row-gap: 4vw;

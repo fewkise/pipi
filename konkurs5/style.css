@@ -255,6 +255,9 @@
   .cardCW p {
     font-size: 1vw;
   }
+  .headerAll header ul li:nth-child(7) img:nth-child(3) {
+    width: 1.5vw;
+  }
   .CWAll .createWork .cardCW .opisAll {
     background-size: 25vw;
     height: 37vh;

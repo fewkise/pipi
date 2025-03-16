@@ -377,6 +377,9 @@
     height: auto;
     font-size: 1vw;
   }
+  .headerAll header ul li:nth-child(7) img:nth-child(3) {
+    width: 1.5vw;
+  }
   .CWAll .createWork .cardCW ul:nth-child(2) li {
     height: auto;
     row-gap: 1vh;

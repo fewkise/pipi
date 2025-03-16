@@ -475,6 +475,11 @@ main {
     .freelanceAll .freelance .freelanceHolder .freeCard ul li p {
         font-size: 1vw;
     }
+    .headerAll header ul li:nth-child(7) { //СТРЕЛОЧКА ХЕДЕР
+        img:nth-child(3){
+            width: 1.5vw;
+        }
+    }
     .freelanceAll .freelance .freelanceHolder .freeCard ul li p:nth-child(1) {
         font-size: 1.2vw;
     }

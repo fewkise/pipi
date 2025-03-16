@@ -483,6 +483,11 @@ main {
     .reviewAll .review #revTop li:nth-child(1) p {
         font-size: 1.5vw;
     }
+    .headerAll header ul li:nth-child(7) { //СТРЕЛОЧКА ХЕДЕР
+        img:nth-child(3){
+            width: 1.5vw;
+        }
+    }
     .reviewAll .review .reviewHolder .reviewCard ul:nth-child(1) li p {
         font-size: 1vw;
     }
