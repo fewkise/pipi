@@ -642,6 +642,187 @@
     }
 }
 @media screen and (max-width:1700px) {
+    .designAll .design .slevaDesign {
+        height: auto;
+        row-gap: 2vh;
+    }
+    .designAll .design .nazvOpisi {
+        font-size: 1.5vw;
+    }
+    .designAll .design .melko {
+        font-size: 1vw;
+    }
+    .designAll .design .slevaDesign .SDbg ul button {
+        img {
+            width: 0.5vw;
+        }
+        width: 3vw;
+        height: 3vw;
+    }
+    .designAll .design .slevaDesign .SDbg {
+        background-size: 90%;
+        height: auto;
+    }
+    .designAll .design .slevaDesign .SDslider ul {
+        img {
+            width: 7vw;
+        }
+    }
+    .designAll .design .slevaDesign .opisanie ul:nth-child(1) {
+        p {
+            font-size: 1vw;
+        }
+        .nazvOpis {
+            font-size: 1.5vw;
+        }
+    }
+    .designAll .design .slevaDesign .opisanie ul:nth-child(1) {
+        height: auto;
+        row-gap: 1vh;
+        img  {
+            width: 1vw;
+            height: 0.5vw;
+        }
+    }
+    .designAll .design .slevaDesign .opisanie {
+        height: auto;
+    }
+    .designAll .design .slevaDesign .opisanie .nazvOpis {
+        font-size: 1.5vw;
+    }
+    .designAll .design .slevaDesign .opisanie ul:nth-child(2) {
+        height: auto;
+        row-gap: 1vh;
+        font-size: 1vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    .designAll .design .slevaDesign .opisanie ul li:nth-child(5) {
+        height: auto;
+        padding-bottom: 2vh;
+    }
+    .spravaDesign .sfonom {
+        height: auto;
+        row-gap: 2vh;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+    .spravaDesign .sfonom ul:nth-child(1) {
+        height: auto;
+        row-gap: 1vh;
+        font-size: 1vw;
+    }
+    .spravaDesign .spavaNazv {
+        font-size: 1.5vw;
+    }
+    .spravaDesign .sfonom ul:nth-child(1) li:nth-child(4) {
+        height: auto;
+        p {
+            height: auto;
+        }
+    }
+    .spravaDesign .sfonom ul li {
+        img {
+            width: 1vw;
+            height: 0.5vw;
+        }
+    }
+    .spravaDesign .sfonom ul:nth-child(2) li:nth-child(2) {
+        p{
+            font-size: 1.3vw;
+        }
+    }
+    .spravaDesign .sfonom ul:nth-child(2) li:nth-child(3) {
+        p{
+            font-size: 1.3vw;
+        }
+    }
+    .spravaDesign .sfonom ul:nth-child(2) li:nth-child(4) {
+        p{
+            font-size: 1.3vw;
+        }
+    }
+    .spravaDesign .sfonom ul li {
+        font-size: 1vw;
+    }
+    .spravaDesign .sfonom ul:nth-child(2) {
+        height: auto;
+        row-gap: 1vh;
+    }
+    .spravaDesign .sfonom ul:nth-child(2) .addBut {
+
+        height: auto;
+        font-size: 1vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    .spravaDesign .sfonom .buyBut {
+        height: auto;
+        font-size: 1vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    .spravaniz .pervUl {
+        height: auto;
+        row-gap: 2vh;
+    }
+    .spravaDesign {
+        height: auto;
+    }
+    .spravaniz {
+        height: auto;
+        row-gap: 3vh;
+    }
+    .spravaniz .maderAll .maderCard ul:nth-child(2) li:nth-child(3) {
+        img {
+            width: 5vw;
+        }
+    }
+    .spravaniz .maderAll .maderCard ul:nth-child(1) {
+        img {
+            width: 5vw;
+        }
+    }
+    .spravaniz .maderAll .maderCard ul:nth-child(2) {
+        font-size: 1vw;
+        height: auto;
+        row-gap: 1vh;
+    }
+    .spravaniz .maderAll .maderSkil li button {
+        font-size: 1vw;
+        width: auto;
+        height: auto;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        
+    }
+    .designAll .design .slevaDesign {
+        align-self: flex-start;
+    }
+    .spravaniz .pervUl li {
+        width: auto;
+        column-gap: 3vh;
+    }
+    .spravaniz .pervUl {
+        padding-top: 3vh;
+    }
+    .spravaniz .maderAll .maderSkil li {
+        width: auto;
+        height: auto;
+        row-gap: 2vh;
+    }
+    .spravaniz .pervUl li {
+        font-size: 1.5vw;
+        height: auto;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        img {
+            height: 0.5vw;
+            width: 1vw;
+        }
+    }
     .headerAll header ul li:nth-child(7){
         img:nth-child(2) {
             width: 4vw;
@@ -656,7 +837,69 @@
         position: absolute;
         left: 77vw;
     }
+    .reviewAll .review #revTop li:nth-child(1) p {
+        font-size: 1.5vw;
+    }
+    .reviewAll .review .reviewHolder .reviewCard ul:nth-child(1) li p {
+        font-size: 1vw;
+    }
+    .reviewAll .review .reviewHolder .reviewCard ul:nth-child(1) {
+        img:nth-child(1) {
+            width: 4vw;
+        }
+        img:nth-child(2) {
+            width: 7vw;
+        }
+    }
+    .reviewAll .review #revTop li:nth-child(2) {
+        width: auto;
+        column-gap: 2vw;
+    }
+    .reviewAll .review #revTop li:nth-child(2) p {
+        font-size: 1.5vw;
+    }
+    .reviewAll .review .reviewHolder .reviewCard ul:nth-child(2) {
+        height: auto;
+    }
+    .reviewAll .review .reviewHolder .reviewCard ul:nth-child(1) {
+        height: auto;
+    }
+    .reviewAll .review .reviewHolder .reviewCard {
+        height: auto;
+        row-gap: 2vh;
+    }
+    .reviewAll .review .reviewHolder .reviewCard ul:nth-child(1) li {
+        height: auto;
+        row-gap: 1vh;
+        padding-top: 2vh;
+    }
+    .reviewAll .review .reviewHolder {
+        height: auto;
+    }
+    .reviewAll .review {
+        height: auto;
+        row-gap: 3vh;
+    }
+    .reviewAll {
+        height: auto;
+    }
+    .reviewAll #more {
+        font-size: 1vw;
+        width: auto;
+        height: auto;
+        padding-right: 4vw;
+        padding-left: 4vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    .designAll .design {
+        height: auto;
+        row-gap: 3vh;
+        padding-bottom: 5vh;
+    }
 }
+
+
 @media screen and (max-width:1360px) {
     .footerAll footer ul a {
         font-size: 1vw;
@@ -675,9 +918,18 @@
     .footerAll footer ul li:nth-child(1) {
         font-size: 1.5vw;
     }
+    .headerAll header ul li:nth-child(7) { //СТРЕЛОЧКА ХЕДЕР
+        img:nth-child(3){
+            width: 1.5vw;
+        }
+    }
 }
 @media screen and (max-width:998px) {
-
+    .headerAll header ul li:nth-child(1) a {
+        img {
+            width: 20vw;
+        }
+    }
 }
 @media screen and (max-width:768px) {
     .footerAll footer ul li {
@@ -706,4 +958,27 @@
     .footerAll footer {
         height: 10vh;
     }
+    
+        .CWAll .createWork .forFon {
+            height: 10vh;
+        }
+        .CWAll .createWork .cardCW .opisAll {
+            height: 10vh;
+        } 
+    .headerAll header ul {
+        li:nth-child(2){
+                opacity: 0;
+         }
+        li:nth-child(3){
+                opacity: 0;
+         }
+         li:nth-child(4){
+                opacity: 0;
+         }
+        li:nth-child(5){
+                opacity: 0;
+         }
+    
+    }
+    
 }
