@@ -325,6 +325,31 @@
     @extend %forflex
 }
 @media screen and (max-width:1700px){
+    .historyAll .history #ulHist {
+        font-size: 1vw;
+    }
+    .historyAll .history #ulHist li:nth-child(3) p {
+        font-size: 1.2vw;
+    }
+    .historyAll .history #ulHist li:nth-child(1) p{
+        font-size: 1.2vw;
+    }
+    .historyAll .history #ulHist li:nth-child(3) {
+        img {
+            width: 1vw;
+        }
+    }
+    .historyAll .history #ulHist li:nth-child(3) {
+        width: auto;
+        column-gap: 0.5vw;
+    }
+    .historyAll .history #ulHist li {
+        width: auto;
+        column-gap: 0.5vw;
+    }
+    .historyAll .history #ulHist input[type=checkbox] {
+        width: 1vw;
+    }
     .headerAll header ul li:nth-child(7){
         img:nth-child(2) {
             width: 4vw;
@@ -338,6 +363,68 @@
     .headerAll header .formenu {
         position: absolute;
         left: 77vw;
+    }
+    .headerAll header ul li:nth-child(7) { //СТРЕЛОЧКА ХЕДЕР
+        img:nth-child(3){
+            width: 1.5vw;
+        }
+    }
+    .headerAll header ul li:nth-child(7){
+        img:nth-child(2) {
+            width: 4vw;
+        }
+    }
+    .headerAll header ul li:nth-child(6) {
+        img {
+            width: 1.5vw;
+        }
+    }
+    .headerAll header .formenu {
+        position: absolute;
+        left: 77vw;
+    }
+    .historyAll .history h1 {
+        font-size: 2vw;
+    }
+    .historyAll .cardsHolder ul li p {
+        font-size: 1vw;
+    }
+    .historyAll .cardsHolder ul li:nth-child(6) button {
+        font-size: 1vw;
+        width: auto;
+        padding-left: 0.5vw;
+        padding-right: 0.5vw;
+        height: auto;
+        padding-top: 0.4vw;
+        padding-bottom: 0.4vw;
+    }
+    .historyAll .cardsHolder ul li:nth-child(1) {
+        background-size: calc(10vw*2);
+        height: 10vw;
+        border-top-left-radius:1vw ;
+        border-top-right-radius:1vw ;
+    }
+    .historyAll .cardsHolder ul {
+        height: auto;
+        row-gap: 1vh;
+    }
+    .historyAll .history {
+        height: auto;
+        row-gap: 5vw;
+    }
+    .historyAll {
+        height: auto;
+        row-gap: 5vw;
+        padding-bottom: 5vw;
+    }
+    .historyAll #more {
+        font-size: 0.9vw;
+        width: auto;
+        padding-right: 2vw;
+        padding-left: 2vw;
+        height: auto;
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
     }
 }
 @media screen and (max-width:1360px) {
@@ -360,7 +447,11 @@
     }
 }
 @media screen and (max-width:998px) {
-
+    .headerAll header ul li:nth-child(1) a {
+        img {
+            width: 20vw;
+        }
+    }
 }
 @media screen and (max-width:768px) {
     .footerAll footer ul li {
@@ -380,6 +471,12 @@
             height: 18vh;
         }
     }
+    .headerAll header {
+        height: 5vh;
+    }
+    .headerAll {
+        height:8vh;
+    }
     .footerAll footer ul li:nth-child(1) {
         height: 2vh;
     }
@@ -388,5 +485,20 @@
     }
     .footerAll footer {
         height: 10vh;
+    }
+    .headerAll header ul {
+        li:nth-child(2){
+            opacity: 0;
+        }
+        li:nth-child(3){
+            opacity: 0;
+        }
+        li:nth-child(4){
+            opacity: 0;
+        }
+        li:nth-child(5){
+            opacity: 0;
+        }
+
     }
 }
