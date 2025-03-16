@@ -156,3 +156,132 @@
         }
     }
 }
+@media screen and (max-width:1700px) {
+    .vhodAll .vhod {
+        height: auto;
+        row-gap: 1vh;
+        p {
+            font-size: 1vw;
+        }
+        h1 {
+            font-size: 2vw;
+        }
+    }
+    .vhodAll .vhod ul:nth-child(1) li {
+        img {
+            width: 15vw;
+        }
+    }
+    .vhodAll .vhod ul:nth-child(3) form input {
+        font-size: 1vw;
+        height: auto;
+    }
+    .vhodAll .vhod ul:nth-child(3) {
+        height: auto;
+        row-gap: 1vh;
+    }
+    .vhodAll .vhod #zabili li input {
+        width: 1vw;
+    }
+    .vhodAll .voitiBut {
+        font-size: 1vw;
+        height: auto;
+        padding-right: 4vw;
+        padding-left: 4vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    .vhodAll .googleBut {
+        font-size: 1vw;
+        height: auto;
+        padding-right: 4vw;
+        padding-left: 4vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        img {
+            width: 2vw;
+        }
+    }
+    .vhodAll .vhod ul:nth-child(5) {
+        height: auto;
+        row-gap: 1vh;
+    }
+    .vhodAll .bg {
+        background-size: auto;
+        p {
+            font-size: 1vw;
+        }
+    }
+    .vhodAll .bg ul li {
+        display: flex;
+        align-items: center;
+    }
+    .vhodAll .vhod .nazvVhod {
+        font-size: 1.2vw;
+    }
+}
+@media screen and (max-width:998px) {
+
+}
+@media screen and  (max-width: 768px) {
+    .vhodAll .bg {
+        display: none;
+    }
+    .vhodAll .vhod {
+        row-gap: 5vh;
+    }
+    .vhodAll .vhod ul {
+        align-items: flex-start;
+        width: 50vw;
+    }
+    .vhodAll .vhod p {
+        font-size: 1.5vw;
+    }
+    .vhodAll .vhod .nazvVhod {
+        font-size: 2vw;
+        width: auto;
+    }
+    .vhodAll .vhod #zabili li:nth-child(1) {
+        width: auto;
+        column-gap: 1vw;
+    }
+    .vhodAll .vhod #zabili li:nth-child(2) {
+        width: auto;
+        column-gap: 1vw;
+    }
+    .vhodAll .googleBut p{
+        font-size: 1vw;
+    }
+    .vhodAll .voitiBut {
+        width: 50vw;
+    }
+    .vhodAll .googleBut {
+        width: 50vw;
+    }
+    .vhodAll .vhod ul:nth-child(6) {
+        width: 50vw;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        li {
+            width: 50vw;
+            column-gap: 5vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+    }
+    .vhodAll .vhod #zabili li {
+        width: 10vw;
+    }
+    .vhodAll .vhod #zabili {
+        width: 50vw;
+        justify-content: space-between;
+    }
+}
+
+@media screen and  (max-width: 480px) {
+
+}
