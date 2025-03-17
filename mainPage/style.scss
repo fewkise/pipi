@@ -556,6 +556,7 @@ main {
     main .slevaAll ul:nth-child(1) {
         height: 27vh;
     }
+
     main .slevaAll ul li button {
         font-size: 0.9vw;
     }
@@ -612,6 +613,9 @@ main {
 @media screen and (max-width:992px){
     .freelanceAll .freelance .freelanceHolder .freeCard {
         height: 20vh;
+    }
+    main .sprava {
+        height: 47vh;
     }
     .headerAll header ul li:nth-child(1) a {
         img {
