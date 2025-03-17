@@ -324,6 +324,41 @@
         position: absolute;
         left: 77vw;
     }
+    .headerAll header .formenu {
+        position: absolute;
+        top:3vw;
+        width: 3vw;
+    }
+    .headerAll header .formenu {
+        position: absolute;
+        left: 90vw;
+    }
+    .headerAll header ul li button {
+        font-size: 1vw;
+        width: auto;
+        height: auto;
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+        padding-right: 0.5vw;
+        padding-left: 0.5vw;
+    }
+    .headerAll header .formenu:hover li {
+        height: auto;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    .headerAll header .formenu:hover li:nth-child(1){
+        padding: 0;
+    }
+    .headerAll header ul li:nth-child(6) {
+        img {
+            width: 1.5vw;
+        }
+    }
+    .headerAll header .formenu {
+        position: absolute;
+        left: 90vw;
+    }
 }
 @media screen and (max-width:998px) {
     .headerAll header ul li:nth-child(1) a {
@@ -341,6 +376,9 @@
     } 
 }
 @media screen and  (max-width: 480px){
+    .headerAll header ul li button:nth-child(2) {
+        display: none;
+    }
     .CWAll .createWork .forFon {
         height: 10vh;
     }
