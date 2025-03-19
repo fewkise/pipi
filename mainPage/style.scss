@@ -754,6 +754,7 @@ main {
     
 
 @media screen and (max-width:480px) {
+
     .footerAll {
         height: 25vh;
         footer {
@@ -832,11 +833,23 @@ main {
     .headerAll {
         height: 50vh;
     }
+    main ul h3 {
+        width: auto;
+    }
     main .slevaAll form input {
         height: 2vh;
     }
     main .slevaAll form #search {
         height: 2vh;
+    }
+    main .slevaAll {
+        width: 80vw;
+        ul {
+            width: 80vw;
+            li {
+                width: 70vw;
+            }
+        }
     }
     main .slevaAll form {
         height: 2vh;
@@ -849,9 +862,11 @@ main {
     }
     main .slevaAll #BigText {
         height: 3vh;
+        font-size: 3vw;
     }
     main .sprava {
         height: 30vh;
+        display: none;
     }
     main {
         height: 30vh;
